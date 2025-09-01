@@ -8,6 +8,7 @@ import { MapPin, Users, GraduationCap, Clock } from 'lucide-react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './App.css'
+import faminasLogo from './assets/logo_Faminas.png'
 
 // Configurar ícones do Leaflet
 delete L.Icon.Default.prototype._getIconUrl
@@ -104,13 +105,20 @@ function App() {
       <header className="bg-white shadow-lg border-b-4 border-faminas-pink">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-3xl font-bold text-faminas-blue">
-                Mapa Interativo de Estágios
-              </h1>
-              <p className="text-faminas-light mt-1">
-                FAMINAS - Faculdade de Minas
-              </p>
+            <div className="flex items-center space-x-4">
+              <img 
+                src={faminasLogo} 
+                alt="Logo FAMINAS" 
+                className="h-16 w-auto object-contain"
+              />
+              <div>
+                <h1 className="text-3xl font-bold text-faminas-blue">
+                  Mapa Interativo de Estágios
+                </h1>
+                <p className="text-faminas-light mt-1">
+                  FAMINAS - Faculdade de Minas
+                </p>
+              </div>
             </div>
             <div className="flex items-center space-x-4">
               <Badge variant="secondary" className="bg-faminas-light text-white">
