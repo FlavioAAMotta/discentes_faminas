@@ -239,7 +239,7 @@ function App() {
               <CardHeader className="bg-faminas-light text-white">
                 <CardTitle className="flex items-center">
                   <MapPin className="w-5 h-5 mr-2" />
-                  Locais de Estágio em Belo Horizonte
+                  Cenários de Prática em Belo Horizonte
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-0">
