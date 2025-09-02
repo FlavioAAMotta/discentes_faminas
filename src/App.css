@@ -247,3 +247,31 @@
   transform: translateY(-1px);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
+
+/* Estilo melhorado para o botão de toggle de estudantes */
+.student-toggle {
+  transition: all 0.2s ease-in-out;
+  border-radius: 6px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.student-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Animação suave para mostrar/ocultar estudantes */
+.student-info {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.student-info.show {
+  opacity: 1;
+  max-height: 50px;
+}

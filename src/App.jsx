@@ -342,20 +342,57 @@ function App() {
                                             {disciplinaInfo.periodo_original}
                                           </span>
                                         </div>
-                                        <div className="text-xs text-gray-700 space-y-1.5 grid grid-cols-2 gap-2">
-                                          <div>
+                                        <div className="text-xs text-gray-700 space-y-2">
+                                          {/* Preceptor - largura completa */}
+                                          <div className="w-full">
                                             <p><strong>👨‍⚕️ Preceptor:</strong></p>
-                                            <p className="text-gray-600 truncate">{disciplinaInfo.preceptor}</p>
+                                            <p className="text-gray-600 ml-4">{disciplinaInfo.preceptor}</p>
                                           </div>
-                                          <div>
-                                            <p><strong>🎓 Estudante:</strong> {disciplinaInfo.estudante}</p>
-                                            <p><strong>🕐 Turno:</strong> {disciplinaInfo.turno}</p>
-                                          </div>
-                                          {disciplinaInfo.turma && (
-                                            <div className="col-span-2">
-                                              <p><strong>👥 Turma:</strong> {disciplinaInfo.turma}</p>
+                                          
+                                          {/* Turma e Turno - lado a lado */}
+                                          <div className="grid grid-cols-2 gap-2">
+                                            <div>
+                                              {disciplinaInfo.turma && (
+                                                <p><strong>👥 Turma:</strong> {disciplinaInfo.turma}</p>
+                                              )}
                                             </div>
-                                          )}
+                                            <div>
+                                              <p><strong>🕐 Turno:</strong> {disciplinaInfo.turno}</p>
+                                            </div>
+                                          </div>
+                                          
+                                          {/* Toggle discreto e elegante */}
+                                          <div className="flex justify-end">
+                                            <button 
+                                              onClick={(e) => {
+                                                e.stopPropagation();
+                                                const target = e.currentTarget.parentElement.nextElementSibling;
+                                                const isHidden = target.classList.contains('hidden');
+                                                if (isHidden) {
+                                                  target.classList.remove('hidden');
+                                                  target.classList.add('show');
+                                                  e.currentTarget.innerHTML = '<span class="text-faminas-pink">•••</span>';
+                                                  e.currentTarget.title = 'Ocultar número de estudantes';
+                                                } else {
+                                                  target.classList.remove('show');
+                                                  setTimeout(() => target.classList.add('hidden'), 300);
+                                                  e.currentTarget.innerHTML = '<span class="text-gray-400">•••</span>';
+                                                  e.currentTarget.title = 'Mostrar número de estudantes';
+                                                }
+                                              }}
+                                              className="text-xs hover:bg-gray-100 rounded px-2 py-1 transition-all duration-200 border border-transparent hover:border-gray-200"
+                                              title="Mostrar número de estudantes"
+                                            >
+                                              <span className="text-gray-400">•••</span>
+                                            </button>
+                                          </div>
+                                          
+                                          {/* Informação de estudantes */}
+                                          <div className="student-info hidden">
+                                            <div className="text-xs text-gray-500 text-center bg-blue-50 py-2 px-3 rounded border border-blue-100">
+                                              <strong>🎓 Estudantes:</strong> {disciplinaInfo.estudante}
+                                            </div>
+                                          </div>
                                         </div>
                                       </div>
                                       ))}
