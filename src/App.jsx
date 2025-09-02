@@ -42,7 +42,9 @@ function App() {
         const filtersData = await filtersResponse.json()
         
         setLocations(locationsData)
-        setFilteredLocations(locationsData)
+        // Inicializar com locais agrupados
+        const groupedLocations = groupLocationsByCoordinates(locationsData)
+        setFilteredLocations(groupedLocations)
         setFilters(filtersData)
         setLoading(false)
       } catch (error) {
@@ -53,6 +55,38 @@ function App() {
     
     loadData()
   }, [])
+
+  // Função para agrupar localizações por coordenadas
+  const groupLocationsByCoordinates = (locationsList) => {
+    const grouped = {}
+    
+    locationsList.forEach(location => {
+      const key = `${location.latitude},${location.longitude}`
+      
+      if (!grouped[key]) {
+        grouped[key] = {
+          id: location.id,
+          local: location.local,
+          endereco: location.endereco,
+          latitude: location.latitude,
+          longitude: location.longitude,
+          disciplinas: []
+        }
+      }
+      
+      grouped[key].disciplinas.push({
+        disciplina: location.disciplina,
+        preceptor: location.preceptor,
+        estudante: location.estudante,
+        periodo_original: location.periodo_original,
+        turma: location.turma,
+        categoria: location.categoria,
+        turno: location.turno
+      })
+    })
+    
+    return Object.values(grouped)
+  }
 
   // Aplicar filtros
   useEffect(() => {
@@ -70,7 +104,9 @@ function App() {
       filtered = filtered.filter(loc => loc.preceptor === selectedFilters.preceptor)
     }
 
-    setFilteredLocations(filtered)
+    // Agrupar localizações por coordenadas
+    const groupedLocations = groupLocationsByCoordinates(filtered)
+    setFilteredLocations(groupedLocations)
   }, [selectedFilters, locations])
 
   const handleFilterChange = (filterType, value) => {
@@ -224,12 +260,18 @@ function App() {
                   <h3 className="font-medium text-gray-900 mb-3">Estatísticas</h3>
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span>Total de locais:</span>
+                      <span>Total de registros:</span>
                       <span className="font-medium">{locations.length}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Locais filtrados:</span>
+                      <span>Locais únicos:</span>
                       <span className="font-medium text-faminas-pink">{filteredLocations.length}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Total disciplinas:</span>
+                      <span className="font-medium text-faminas-blue">
+                        {filteredLocations.reduce((total, loc) => total + (loc.disciplinas?.length || 0), 0)}
+                      </span>
                     </div>
                     <div className="flex justify-between">
                       <span>Disciplinas:</span>
@@ -264,25 +306,63 @@ function App() {
                     
                     {filteredLocations.map((location) => (
                       <Marker
-                        key={location.id}
+                        key={`${location.latitude}-${location.longitude}`}
                         position={[location.latitude, location.longitude]}
                       >
-                        <Popup maxWidth={300} className="custom-popup">
-                          <div className="p-2">
-                            <h3 className="font-bold text-faminas-blue mb-2">
+                        <Popup maxWidth={450} className="custom-popup">
+                          <div className="p-4">
+                            <h3 className="font-bold text-faminas-blue mb-3 text-lg border-b pb-2">
                               {location.local}
                             </h3>
-                            <div className="space-y-1 text-sm">
-                              <p><strong>Endereço:</strong> {location.endereco}</p>
-                              <p><strong>Disciplina:</strong> 
-                                <Badge variant="secondary" className="ml-1 bg-faminas-light text-white">
-                                  {location.disciplina}
-                                </Badge>
-                              </p>
-                              <p><strong>Período:</strong> {location.periodo_original}</p>
-                              <p><strong>Preceptor:</strong> {location.preceptor}</p>
-                              <p><strong>Estudante:</strong> {location.estudante}</p>
-                              <p><strong>Turno:</strong> {location.turno}</p>
+                            <div className="space-y-3">
+                              <div className="bg-blue-50 p-3 rounded-lg">
+                                <p className="text-sm"><strong>📍 Endereço:</strong> {location.endereco}</p>
+                              </div>
+                              
+                              {/* Exibir múltiplas disciplinas com scroll */}
+                              {location.disciplinas && location.disciplinas.length > 0 && (
+                                <div>
+                                  <div className="flex items-center gap-2 mb-3">
+                                    <strong className="text-gray-800">📚 Disciplinas</strong>
+                                    <Badge variant="outline" className="bg-faminas-pink text-white border-faminas-pink">
+                                      {location.disciplinas.length}
+                                    </Badge>
+                                  </div>
+                                  
+                                  {/* Container com scroll */}
+                                  <div className="scroll-container">
+                                    <div className="max-h-64 overflow-y-auto space-y-3 pr-2 popup-scroll">
+                                      {location.disciplinas.map((disciplinaInfo, index) => (
+                                        <div key={index} className="disciplina-card border border-gray-200 bg-white p-3 rounded-lg shadow-sm">
+                                        <div className="flex items-center justify-between mb-2">
+                                          <Badge variant="secondary" className="bg-faminas-light text-white font-medium">
+                                            {disciplinaInfo.disciplina}
+                                          </Badge>
+                                          <span className="text-xs text-gray-600 bg-gray-100 px-2 py-1 rounded">
+                                            {disciplinaInfo.periodo_original}
+                                          </span>
+                                        </div>
+                                        <div className="text-xs text-gray-700 space-y-1.5 grid grid-cols-2 gap-2">
+                                          <div>
+                                            <p><strong>👨‍⚕️ Preceptor:</strong></p>
+                                            <p className="text-gray-600 truncate">{disciplinaInfo.preceptor}</p>
+                                          </div>
+                                          <div>
+                                            <p><strong>🎓 Estudante:</strong> {disciplinaInfo.estudante}</p>
+                                            <p><strong>🕐 Turno:</strong> {disciplinaInfo.turno}</p>
+                                          </div>
+                                          {disciplinaInfo.turma && (
+                                            <div className="col-span-2">
+                                              <p><strong>👥 Turma:</strong> {disciplinaInfo.turma}</p>
+                                            </div>
+                                          )}
+                                        </div>
+                                      </div>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
+                              )}
                             </div>
                           </div>
                         </Popup>
