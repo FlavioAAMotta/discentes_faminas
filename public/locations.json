@@ -8,7 +8,7 @@
     "estudante": 6,
     "periodo_original": "PRIMEIRO",
     "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "MANHÃ",
     "latitude": -19.59565,
     "longitude": -43.90824
@@ -22,27 +22,13 @@
     "estudante": 6,
     "periodo_original": "PRIMEIRO",
     "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "MANHÃ",
     "latitude": -19.86977,
     "longitude": -43.89453
   },
   {
     "id": 3,
-    "local": "UBS Nova Vista",
-    "endereco": "R. Alzira, 242 - Carvalho de Brito, Sabará - MG, 34710-530",
-    "disciplina": "APS I",
-    "preceptor": "JESSICA SILVA JANUÁRIO",
-    "estudante": 6,
-    "periodo_original": "PRIMEIRO",
-    "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
-    "turno": "TARDE",
-    "latitude": -19.88232,
-    "longitude": -43.89812
-  },
-  {
-    "id": 4,
     "local": "UBS Siderúrgica",
     "endereco": "Praça Dr. Louis Ensch - Centro, Sabará - MG, 34505-740",
     "disciplina": "APS I",
@@ -50,13 +36,55 @@
     "estudante": 6,
     "periodo_original": "PRIMEIRO",
     "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
+    "turno": "MANHÃ",
+    "latitude": -19.8846,
+    "longitude": -43.7984
+  },
+  {
+    "id": 4,
+    "local": "UBS Nova Vista",
+    "endereco": "R. Alzira, 242 - Carvalho de Brito, Sabará - MG, 34710-530",
+    "disciplina": "APS I",
+    "preceptor": "JESSICA SILVA JANUÁRIO",
+    "estudante": 6,
+    "periodo_original": "PRIMEIRO",
+    "turma": "FAMED XXVII",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.88454,
-    "longitude": -43.79839
+    "latitude": -19.88232,
+    "longitude": -43.89812
   },
   {
     "id": 5,
+    "local": "UBS Catumbi",
+    "endereco": "R. São Judas Tadeu 795, São Benedito, Santa Luzia - MG CEP 33125-270",
+    "disciplina": "APS I",
+    "preceptor": "NAYARA DUTRA DE MORAES",
+    "estudante": 6,
+    "periodo_original": "PRIMEIRO",
+    "turma": "FAMED XXVII",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.7884,
+    "longitude": -43.94017
+  },
+  {
+    "id": 6,
+    "local": "UBS Siderúrgica",
+    "endereco": "Praça Dr. Louis Ensch - Centro, Sabará - MG, 34505-740",
+    "disciplina": "APS I",
+    "preceptor": "LUIZA HAMACEK DIAS PASSOS DE MATOS",
+    "estudante": 6,
+    "periodo_original": "PRIMEIRO",
+    "turma": "FAMED XXVII",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.8846,
+    "longitude": -43.7984
+  },
+  {
+    "id": 7,
     "local": "UBS Novo Alvorada",
     "endereco": "Av. Aparecida do Norte, 25 - Carvalho de Brito, Sabará - MG, 34650-200",
     "disciplina": "APS I",
@@ -64,13 +92,27 @@
     "estudante": 7,
     "periodo_original": "PRIMEIRO",
     "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.86985,
+    "latitude": -19.86977,
     "longitude": -43.89453
   },
   {
-    "id": 6,
+    "id": 8,
+    "local": "UBS Catumbi",
+    "endereco": "R. São Judas Tadeu 795, São Benedito, Santa Luzia - MG CEP 33125-270",
+    "disciplina": "APS I",
+    "preceptor": "NAYARA DUTRA DE MORAES",
+    "estudante": 6,
+    "periodo_original": "PRIMEIRO",
+    "turma": "FAMED XXVII",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.7884,
+    "longitude": -43.94017
+  },
+  {
+    "id": 9,
     "local": "UBS Novo Alvorada",
     "endereco": "Av. Aparecida do Norte, 25 - Carvalho de Brito, Sabará - MG, 34650-200",
     "disciplina": "APS I",
@@ -78,13 +120,13 @@
     "estudante": 6,
     "periodo_original": "PRIMEIRO",
     "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
     "latitude": -19.86977,
-    "longitude": -43.89452
+    "longitude": -43.89453
   },
   {
-    "id": 7,
+    "id": 10,
     "local": "UBS Nova Vista",
     "endereco": "R. Alzira, 242 - Carvalho de Brito, Sabará - MG, 34710-530",
     "disciplina": "APS I",
@@ -92,13 +134,13 @@
     "estudante": 6,
     "periodo_original": "PRIMEIRO",
     "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.88226,
-    "longitude": -43.89811
+    "latitude": -19.88232,
+    "longitude": -43.89812
   },
   {
-    "id": 8,
+    "id": 11,
     "local": "UBS Siderúrgica",
     "endereco": "Praça Dr. Louis Ensch - Centro, Sabará - MG, 34505-740",
     "disciplina": "APS I",
@@ -106,13 +148,13 @@
     "estudante": 6,
     "periodo_original": "PRIMEIRO",
     "turma": "FAMED XXVII",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.88452,
-    "longitude": -43.79828
+    "latitude": -19.8846,
+    "longitude": -43.7984
   },
   {
-    "id": 9,
+    "id": 12,
     "local": "UBS Novo Alvorada",
     "endereco": "Av. Aparecida do Norte, 25 - Carvalho de Brito, Sabará - MG, 34650-200",
     "disciplina": "APS II",
@@ -120,13 +162,13 @@
     "estudante": 6,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.86982,
-    "longitude": -43.89449
+    "latitude": -19.86977,
+    "longitude": -43.89453
   },
   {
-    "id": 10,
+    "id": 13,
     "local": "UBS Bom Jesus",
     "endereco": "R. Francisco Gerônimo da Silva, 25 - Bom Jesus, Santa Luzia - MG, 33015-410",
     "disciplina": "APS II",
@@ -134,13 +176,13 @@
     "estudante": 7,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
     "latitude": -19.75626,
     "longitude": -43.84725
   },
   {
-    "id": 11,
+    "id": 14,
     "local": "UBS Vale das Acácias",
     "endereco": "Av. das Acácias, 570 - Vale das Acácias, Santa Luzia - MG, 33084-000",
     "disciplina": "APS II",
@@ -148,13 +190,27 @@
     "estudante": 6,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
     "latitude": -19.79757,
     "longitude": -43.89035
   },
   {
-    "id": 12,
+    "id": 15,
+    "local": "UBS Virgem dos Pobres",
+    "endereco": "R. Nossa Senhora da Conceição 70, São Benedito, Santa Luzia 33120-110",
+    "disciplina": "APS II",
+    "preceptor": "RENATA REGINA BARBOSA QUINTELA DE ANDRADE",
+    "estudante": 6,
+    "periodo_original": "SEGUNDO",
+    "turma": "FAMED XXVI",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.7915,
+    "longitude": -43.9376
+  },
+  {
+    "id": 16,
     "local": "UBS Cuidar Várzea",
     "endereco": "Praça das Estrelas 45, bairro Solarium, Lagoa Santa - MG",
     "disciplina": "APS II",
@@ -162,13 +218,13 @@
     "estudante": 6,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
     "latitude": -19.63074,
     "longitude": -43.88326
   },
   {
-    "id": 13,
+    "id": 17,
     "local": "CAS Norte - Policlínia Regional Norte",
     "endereco": "R. Pinto Alves, 3755 - Vila Maria, Lagoa Santa - MG, 33400-000",
     "disciplina": "APS II",
@@ -176,13 +232,13 @@
     "estudante": 6,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "MANHÃ",
-    "latitude": -19.59571,
-    "longitude": -43.90828
+    "latitude": -19.59565,
+    "longitude": -43.90824
   },
   {
-    "id": 14,
+    "id": 18,
     "local": "USF Centro",
     "endereco": "R. Mal. Deodoro da Fonseca, 410 - Centro - Lagoa Santa- MG",
     "disciplina": "APS II",
@@ -190,13 +246,13 @@
     "estudante": 6,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "MANHÃ",
-    "latitude": -19.63024,
-    "longitude": -43.89551
+    "latitude": -19.63023,
+    "longitude": -43.89565
   },
   {
-    "id": 15,
+    "id": 19,
     "local": "UBS Cuidar Promissão",
     "endereco": "Al. Noruega 165, Vila Pinto Coelho - Lagoa Santa",
     "disciplina": "APS II",
@@ -204,13 +260,13 @@
     "estudante": 6,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "MANHÃ",
     "latitude": -19.62773,
     "longitude": -43.90181
   },
   {
-    "id": 16,
+    "id": 20,
     "local": "UBS Santa Rita",
     "endereco": "Av. Belo Horizonte 185, Padre Miguel - Santa Luzia",
     "disciplina": "APS II",
@@ -218,13 +274,27 @@
     "estudante": 8,
     "periodo_original": "SEGUNDO",
     "turma": "FAMED XXVI",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "MANHÃ",
     "latitude": -19.80917,
     "longitude": -43.89218
   },
   {
-    "id": 17,
+    "id": 21,
+    "local": "UBS Cuidar Várzea",
+    "endereco": "Praça das Estrelas 45, bairro Solarium, Lagoa Santa - MG",
+    "disciplina": "APS III",
+    "preceptor": "JESSICA ALVES CONRADO",
+    "estudante": 7,
+    "periodo_original": "TERCEIRO",
+    "turma": "FAMED XXV",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.63074,
+    "longitude": -43.88326
+  },
+  {
+    "id": 22,
     "local": "UBS Siderúrgica",
     "endereco": "Praça Dr. Louis Ensch - Centro, Sabará - MG, 34505-740",
     "disciplina": "APS III",
@@ -232,13 +302,13 @@
     "estudante": 7,
     "periodo_original": "TERCEIRO",
     "turma": "FAMED XXV",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.88457,
-    "longitude": -43.79836
+    "latitude": -19.8846,
+    "longitude": -43.7984
   },
   {
-    "id": 18,
+    "id": 23,
     "local": "UBS Novo Alvorada",
     "endereco": "Av. Aparecida do Norte, 25 - Carvalho de Brito, Sabará - MG, 34650-200",
     "disciplina": "APS III",
@@ -246,13 +316,13 @@
     "estudante": 7,
     "periodo_original": "TERCEIRO",
     "turma": "FAMED XXV",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.86982,
-    "longitude": -43.89446
+    "latitude": -19.86977,
+    "longitude": -43.89453
   },
   {
-    "id": 19,
+    "id": 24,
     "local": "UBS Vale das Acácias",
     "endereco": "Av. das Acácias, 570 - Vale das Acácias, Santa Luzia - MG, 33084-000",
     "disciplina": "APS III",
@@ -260,13 +330,41 @@
     "estudante": 6,
     "periodo_original": "TERCEIRO",
     "turma": "FAMED XXV",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.79754,
-    "longitude": -43.89023
+    "latitude": -19.79757,
+    "longitude": -43.89035
   },
   {
-    "id": 20,
+    "id": 25,
+    "local": "UBS Cuidar Várzea",
+    "endereco": "Praça das Estrelas 45, bairro Solarium, Lagoa Santa - MG",
+    "disciplina": "APS III",
+    "preceptor": "JESSICA ALVES CONRADO",
+    "estudante": 7,
+    "periodo_original": "TERCEIRO",
+    "turma": "FAMED XXV",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.63074,
+    "longitude": -43.88326
+  },
+  {
+    "id": 26,
+    "local": "UBS Virgem dos Pobres",
+    "endereco": "R. Nossa Senhora da Conceição 70, São Benedito, Santa Luzia 33120-110",
+    "disciplina": "APS III",
+    "preceptor": "RENATA REGINA BARBOSA QUINTELA DE ANDRADE",
+    "estudante": 7,
+    "periodo_original": "TERCEIRO",
+    "turma": "FAMED XXV",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.7915,
+    "longitude": -43.9376
+  },
+  {
+    "id": 27,
     "local": "UBS Cuidar Promissão",
     "endereco": "Al. Noruega 165, Vila Pinto Coelho - Lagoa Santa",
     "disciplina": "APS III",
@@ -274,13 +372,13 @@
     "estudante": 7,
     "periodo_original": "TERCEIRO",
     "turma": "FAMED XXV",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.62753,
-    "longitude": -43.90174
+    "latitude": -19.62773,
+    "longitude": -43.90181
   },
   {
-    "id": 21,
+    "id": 28,
     "local": "UBS Catumbi",
     "endereco": "R. São Judas Tadeu 795, São Benedito, Santa Luzia - MG CEP 33125-270",
     "disciplina": "APS III",
@@ -288,13 +386,13 @@
     "estudante": 7,
     "periodo_original": "TERCEIRO",
     "turma": "FAMED XXV",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
-    "latitude": -19.78835,
-    "longitude": -43.94004
+    "latitude": -19.7884,
+    "longitude": -43.94017
   },
   {
-    "id": 22,
+    "id": 29,
     "local": "USF Centro",
     "endereco": "R. Mal. Deodoro da Fonseca, 410 - Centro - Lagoa Santa- MG",
     "disciplina": "APS III",
@@ -302,13 +400,27 @@
     "estudante": 6,
     "periodo_original": "TERCEIRO",
     "turma": "FAMED XXV",
-    "categoria": "Enfermeiro ",
+    "categoria": "Enfermeiro",
     "turno": "TARDE",
     "latitude": -19.63023,
     "longitude": -43.89565
   },
   {
-    "id": 23,
+    "id": 30,
+    "local": "UBS Novo Alvorada",
+    "endereco": "Av. Aparecida do Norte, 25 - Carvalho de Brito, Sabará - MG, 34650-200",
+    "disciplina": "APS III",
+    "preceptor": "ÉRICA MOREIRA DE SOUZA",
+    "estudante": 6,
+    "periodo_original": "TERCEIRO",
+    "turma": "FAMED XXV",
+    "categoria": "Enfermeiro",
+    "turno": "TARDE",
+    "latitude": -19.86977,
+    "longitude": -43.89453
+  },
+  {
+    "id": 31,
     "local": "Centro de Saúde Serra Verde",
     "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
     "disciplina": "AS IV",
@@ -318,11 +430,11 @@
     "turma": "FAMED XXIV",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.79525,
-    "longitude": -43.95368
+    "latitude": -19.79517,
+    "longitude": -43.9538
   },
   {
-    "id": 24,
+    "id": 32,
     "local": "UBS Cuidar Moradas da Lapinha I",
     "endereco": "R. Cio da terra, 380, Moradas da Lapinha, Lagoa Santa",
     "disciplina": "AS IV",
@@ -336,7 +448,7 @@
     "longitude": -43.90841
   },
   {
-    "id": 25,
+    "id": 33,
     "local": "UBS Cuidar Joana D´Arc",
     "endereco": "R. Cmte. Vítor, 100 - Bela Vista, Lagoa Santa - MG, 33400-000",
     "disciplina": "AS IV",
@@ -350,7 +462,7 @@
     "longitude": -43.90223
   },
   {
-    "id": 26,
+    "id": 34,
     "local": "UBS Célvia I",
     "endereco": "Rua Paraná 231, Célvia, Vespasiano",
     "disciplina": "AS IV",
@@ -361,10 +473,10 @@
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
     "latitude": -19.69054,
-    "longitude": -43.93526
+    "longitude": -43.93539
   },
   {
-    "id": 27,
+    "id": 35,
     "local": "UBS Cuidar Promissão",
     "endereco": "Al. Noruega 165, Vila Pinto Coelho - Lagoa Santa",
     "disciplina": "AS IV",
@@ -374,11 +486,11 @@
     "turma": "FAMED XXIV",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.62766,
-    "longitude": -43.90173
+    "latitude": -19.62773,
+    "longitude": -43.90181
   },
   {
-    "id": 28,
+    "id": 36,
     "local": "UBS Cuidar Moradas da Lapinha I",
     "endereco": "R. Cio da terra, 380, Moradas da Lapinha, Lagoa Santa",
     "disciplina": "AS IV",
@@ -388,11 +500,11 @@
     "turma": "FAMED XXIV",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.59576,
-    "longitude": -43.90831
+    "latitude": -19.59588,
+    "longitude": -43.90841
   },
   {
-    "id": 29,
+    "id": 37,
     "local": "PSF Cuidar Pôr do Sol",
     "endereco": "Rua Paula Pinto, 298 –Por do sol - Lagoa Santa-MG",
     "disciplina": "AS IV",
@@ -406,7 +518,21 @@
     "longitude": -43.90908
   },
   {
-    "id": 30,
+    "id": 38,
+    "local": "Centro de Saúde Aarão Reis",
+    "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
+    "disciplina": "AS IV",
+    "preceptor": "CAMILA PIMENTA GUIMARÃES",
+    "estudante": 6,
+    "periodo_original": "QUARTO",
+    "turma": "FAMED XXIV",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "MANHÃ",
+    "latitude": -19.84571,
+    "longitude": -43.92117
+  },
+  {
+    "id": 39,
     "local": "UBS Caieiras",
     "endereco": "R. Dona Mariana da Costa 959, Caieiras, Vespasiano",
     "disciplina": "AS IV",
@@ -420,7 +546,7 @@
     "longitude": -43.91391
   },
   {
-    "id": 31,
+    "id": 40,
     "local": "ESF Gameleira",
     "endereco": "R. Gameleira 399, Confins - MG, 33500-000",
     "disciplina": "AS IV",
@@ -430,11 +556,11 @@
     "turma": "FAMED XXIV",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.62818,
-    "longitude": -43.98403
+    "latitude": -19.62827,
+    "longitude": -43.98395
   },
   {
-    "id": 32,
+    "id": 41,
     "local": "UBS Cuidar Sobradinho",
     "endereco": "R. Aleomar Baleeiro 316, Bairro Miguel A Salomão, Lagoa Santa, MG CEP 33400-000",
     "disciplina": "AS IV",
@@ -448,7 +574,7 @@
     "longitude": -43.89168
   },
   {
-    "id": 33,
+    "id": 42,
     "local": "UBS Moradas da Serra",
     "endereco": "Av. Minas Gerais 715, Morada da Serra, Ibirité - MG, CEP 32400-000",
     "disciplina": "AS IV",
@@ -458,13 +584,13 @@
     "turma": "FAMED XXIV",
     "categoria": "Médico Generalista / MFC",
     "turno": "TARDE",
-    "latitude": -20.02412,
-    "longitude": -44.04103
+    "latitude": -20.02411,
+    "longitude": -44.04106
   },
   {
-    "id": 34,
+    "id": 43,
     "local": "UBS Nova Pampulha (Policlínica Niova Pampulha)",
-    "endereco": "Av. Divino Marques Guimarães 321, bairro Nova Pampulha, Vespasiano ",
+    "endereco": "Av. Divino Marques Guimarães 321, bairro Nova Pampulha, Vespasiano",
     "disciplina": "AS IV",
     "preceptor": "KENIA CAMPOS GALVÃO",
     "estudante": 6,
@@ -472,11 +598,11 @@
     "turma": "FAMED XXIV",
     "categoria": "Médico Generalista / MFC",
     "turno": "TARDE",
-    "latitude": -19.78157,
-    "longitude": -43.97234
+    "latitude": -19.78158,
+    "longitude": -43.97219
   },
   {
-    "id": 35,
+    "id": 44,
     "local": "ESF Gameleira",
     "endereco": "R. Gameleira 399, Confins - MG, 33500-000",
     "disciplina": "AS IV",
@@ -486,11 +612,11 @@
     "turma": "FAMED XXIV",
     "categoria": "Médico Generalista / MFC",
     "turno": "TARDE",
-    "latitude": -19.62812,
-    "longitude": -43.98394
+    "latitude": -19.62827,
+    "longitude": -43.98395
   },
   {
-    "id": 36,
+    "id": 45,
     "local": "UBS Rosário",
     "endereco": "R. Salvador Correia de Sá, 104 - Rosário, Sabará - MG, 34555-120",
     "disciplina": "AS V",
@@ -504,7 +630,7 @@
     "longitude": -43.82577
   },
   {
-    "id": 37,
+    "id": 46,
     "local": "UBS Roça Grande",
     "endereco": "Rua Santana 545, Roça Grande - Sabará - MG",
     "disciplina": "AS V",
@@ -514,11 +640,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.89159,
+    "latitude": -19.89158,
     "longitude": -43.83156
   },
   {
-    "id": 38,
+    "id": 47,
     "local": "UBS Nova Pampulha (Policlínica Niova Pampulha)",
     "endereco": "Av. Divino Marques Guimarães 321, bairro Nova Pampulha, Vespasiano (ao lado da Escola Municipal Bárbara Maria Salomão)",
     "disciplina": "AS V",
@@ -528,11 +654,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.78155,
-    "longitude": -43.97218
+    "latitude": -19.78158,
+    "longitude": -43.97219
   },
   {
-    "id": 39,
+    "id": 48,
     "local": "UBS Lagoinha de Fora",
     "endereco": "R. Alaíde Antônio, 148 - Lagoinha de Fora- Lagoa Santa-MG",
     "disciplina": "AS V",
@@ -546,7 +672,7 @@
     "longitude": -43.84762
   },
   {
-    "id": 40,
+    "id": 49,
     "local": "UBS Caieiras",
     "endereco": "R. Dona Mariana da Costa 959, Caieiras, Vespasiano",
     "disciplina": "AS V",
@@ -556,11 +682,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.68645,
-    "longitude": -43.91388
+    "latitude": -19.68637,
+    "longitude": -43.91391
   },
   {
-    "id": 41,
+    "id": 50,
     "local": "Centro de Saúde Rio Branco",
     "endereco": "R. Crisanto Muniz, 120 - Rio Branco, Belo Horizonte - MG, 31535-450",
     "disciplina": "AS V",
@@ -570,11 +696,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.81389,
-    "longitude": -43.98024
+    "latitude": -19.81387,
+    "longitude": -43.9803
   },
   {
-    "id": 42,
+    "id": 51,
     "local": "Gavea I -  UBS  Inah Vercesi dos Santos",
     "endereco": "R. Yuri Gagarin, 425 - Gávea, Vespasiano - MG, 33200-000",
     "disciplina": "AS V",
@@ -588,7 +714,7 @@
     "longitude": -43.94078
   },
   {
-    "id": 43,
+    "id": 52,
     "local": "ESF Adélia Issa",
     "endereco": "Rua Luiz Pires, 55, Adélia Issa - Pedro Leopoldo - MG CEP 33600-000",
     "disciplina": "AS V",
@@ -598,11 +724,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.58808,
-    "longitude": -44.02925
+    "latitude": -19.58792,
+    "longitude": -44.02839
   },
   {
-    "id": 44,
+    "id": 53,
     "local": "Centro de Saúde Zilah Spósito",
     "endereco": "R. Coquilhos, 85 - Jaqueline, Belo Horizonte - MG, 31748-495",
     "disciplina": "AS V",
@@ -612,11 +738,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.80463,
-    "longitude": -43.92812
+    "latitude": -19.80454,
+    "longitude": -43.92834
   },
   {
-    "id": 45,
+    "id": 54,
     "local": "Centro de Saúde Serra Verde",
     "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
     "disciplina": "AS V",
@@ -626,13 +752,13 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.79523,
-    "longitude": -43.95372
+    "latitude": -19.79517,
+    "longitude": -43.9538
   },
   {
-    "id": 46,
+    "id": 55,
     "local": "Centro de Saúde Jardim Felicidade",
-    "endereco": " R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
+    "endereco": "R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
     "disciplina": "AS V",
     "preceptor": "EVELINE JULIETA PETRUCELI ALMEIDA",
     "estudante": 6,
@@ -640,11 +766,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.82245,
-    "longitude": -43.93114
+    "latitude": -19.82235,
+    "longitude": -43.93104
   },
   {
-    "id": 47,
+    "id": 56,
     "local": "Centro de Saúde Alcides Lins",
     "endereco": "R. Panema, 275 - Concórdia, Belo Horizonte - MG, 31130-620",
     "disciplina": "AS V",
@@ -658,7 +784,7 @@
     "longitude": -43.93765
   },
   {
-    "id": 48,
+    "id": 57,
     "local": "Centro de Saúde Alcides Lins",
     "endereco": "R. Panema, 275 - Concórdia, Belo Horizonte - MG, 31130-620",
     "disciplina": "AS V",
@@ -672,7 +798,7 @@
     "longitude": -43.93765
   },
   {
-    "id": 49,
+    "id": 58,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "AS V",
@@ -682,11 +808,11 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.84576,
-    "longitude": -43.92087
+    "latitude": -19.84571,
+    "longitude": -43.92117
   },
   {
-    "id": 50,
+    "id": 59,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "AS V",
@@ -696,123 +822,137 @@
     "turma": "FAMED XXIII",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.84576,
-    "longitude": -43.92087
+    "latitude": -19.84571,
+    "longitude": -43.92117
   },
   {
-    "id": 51,
+    "id": 60,
+    "local": "UBS CAIC",
+    "endereco": "R. Diamantina S/N - Nossa Sra. de Fatima, Sabará - MG",
+    "disciplina": "AS V",
+    "preceptor": "THATIANNE SCOFIELD COLEN SEDLMAYER",
+    "estudante": 7,
+    "periodo_original": "QUINTO",
+    "turma": "FAMED XXIII",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "MANHÃ",
+    "latitude": -19.87606,
+    "longitude": -43.8543
+  },
+  {
+    "id": 61,
     "local": "CEM Venda Nova",
-    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000 ",
-    "disciplina": "SA I ",
+    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000",
+    "disciplina": "SA I",
     "preceptor": "RAFAELLA RODRIGUES COSTA",
     "estudante": 6,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.81844,
+    "latitude": -19.81847,
     "longitude": -43.95332
   },
   {
-    "id": 52,
+    "id": 62,
     "local": "Policlínica Nova Pampulha",
     "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
-    "disciplina": "SA I ",
+    "disciplina": "SA I",
     "preceptor": "DIRCE TAMIRES DOMINGUES BRANDÃO",
     "estudante": 7,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.78158,
-    "longitude": -43.97232
+    "latitude": -19.78154,
+    "longitude": -43.9724
   },
   {
-    "id": 53,
+    "id": 63,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
-    "disciplina": "SA I ",
+    "disciplina": "SA I",
     "preceptor": "SYOMARA MARY DE SOUZA",
     "estudante": 7,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.88836,
-    "longitude": -43.80795
+    "latitude": -19.88826,
+    "longitude": -43.80794
   },
   {
-    "id": 54,
+    "id": 64,
     "local": "CEM Venda Nova",
-    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000 ",
-    "disciplina": "SA I ",
+    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000",
+    "disciplina": "SA I",
     "preceptor": "OTÁVIO AUGUSTO PINTO",
     "estudante": 6,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.81831,
-    "longitude": -43.95334
+    "latitude": -19.81847,
+    "longitude": -43.95332
   },
   {
-    "id": 55,
+    "id": 65,
     "local": "CEM Noroeste",
     "endereco": "Rua Padre Eustáquio, 1951 - 2º andar, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
-    "disciplina": "SA I ",
+    "disciplina": "SA I",
     "preceptor": "DIRCE TAMIRES DOMINGUES BRANDÃO",
     "estudante": 7,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.91517,
-    "longitude": -43.97078
+    "latitude": -19.91519,
+    "longitude": -43.97065
   },
   {
-    "id": 56,
+    "id": 66,
     "local": "CEM Noroeste",
     "endereco": "Rua Padre Eustáquio, 1951 - 2º andar, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
-    "disciplina": "SA I ",
+    "disciplina": "SA I",
     "preceptor": "RAFAELLA RODRIGUES COSTA",
     "estudante": 7,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.91517,
-    "longitude": -43.97078
+    "latitude": -19.91519,
+    "longitude": -43.97065
   },
   {
-    "id": 57,
+    "id": 67,
     "local": "CEM Venda Nova",
-    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000 ",
-    "disciplina": "SA I ",
+    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000",
+    "disciplina": "SA I",
     "preceptor": "BRUNA BOECHAT RIDOLFI",
     "estudante": 6,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.81843,
-    "longitude": -43.95337
+    "latitude": -19.81847,
+    "longitude": -43.95332
   },
   {
-    "id": 58,
+    "id": 68,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
-    "disciplina": "SA I ",
+    "disciplina": "SA I",
     "preceptor": "SYOMARA MARY DE SOUZA",
     "estudante": 7,
     "periodo_original": "QUINTO",
     "turma": "FAMED XXIII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.88836,
-    "longitude": -43.80792
+    "latitude": -19.88826,
+    "longitude": -43.80794
   },
   {
-    "id": 59,
+    "id": 69,
     "local": "UBS Rosário",
     "endereco": "R. Salvador Correia de Sá, 104 - Rosário, Sabará - MG, 34555-120",
     "disciplina": "AS VI",
@@ -822,11 +962,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.88739,
-    "longitude": -43.82576
+    "latitude": -19.88732,
+    "longitude": -43.82577
   },
   {
-    "id": 60,
+    "id": 70,
     "local": "UBS Roça Grande",
     "endereco": "Rua Santana 545, Roça Grande - Sabará - MG",
     "disciplina": "AS VI",
@@ -836,11 +976,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.89163,
-    "longitude": -43.83161
+    "latitude": -19.89158,
+    "longitude": -43.83156
   },
   {
-    "id": 61,
+    "id": 71,
     "local": "UBS Nova Pampulha (Policlínica Niova Pampulha)",
     "endereco": "Av. Divino Marques Guimarães 321, bairro Nova Pampulha, Vespasiano (ao lado da Escola Municipal Bárbara Maria Salomão)",
     "disciplina": "AS VI",
@@ -850,11 +990,25 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.78155,
-    "longitude": -43.97232
+    "latitude": -19.78158,
+    "longitude": -43.97219
   },
   {
-    "id": 62,
+    "id": 72,
+    "local": "UBS Cuidar Morro do Cruzeiro",
+    "endereco": "R. Morro do Cruzeiro 1635, Morro do Cruzeiro, Lagoa Santa, CEP 33244-560",
+    "disciplina": "AS VI",
+    "preceptor": "ALINE LÚCIA MENEZES FERRÃO",
+    "estudante": 6,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.61334,
+    "longitude": -43.8803
+  },
+  {
+    "id": 73,
     "local": "UBS Cuidar Sobradinho",
     "endereco": "R. Aleomar Baleeiro 316, Bairro Miguel A Salomão, Lagoa Santa, MG CEP 33400-000",
     "disciplina": "AS VI",
@@ -864,11 +1018,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.62444,
-    "longitude": -43.89179
+    "latitude": -19.62456,
+    "longitude": -43.89168
   },
   {
-    "id": 63,
+    "id": 74,
     "local": "USF Centro",
     "endereco": "R. Mal. Deodoro da Fonseca, 410 - Centro - Lagoa Santa- MG",
     "disciplina": "AS VI",
@@ -878,11 +1032,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.63018,
-    "longitude": -43.89557
+    "latitude": -19.63023,
+    "longitude": -43.89565
   },
   {
-    "id": 64,
+    "id": 75,
     "local": "Centro de Saúde Santa Mônica",
     "endereco": "Rua dos Zapotecas 98, bairro Santa Mônica, Belo Horizonte - MG",
     "disciplina": "AS VI",
@@ -892,11 +1046,25 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.82868,
-    "longitude": -43.97696
+    "latitude": -19.82859,
+    "longitude": -43.977
   },
   {
-    "id": 65,
+    "id": 76,
+    "local": "Centro de Saúde Rio Branco",
+    "endereco": "R. Crisanto Muniz, 120 - Rio Branco, Belo Horizonte - MG, 31535-450",
+    "disciplina": "AS VI",
+    "preceptor": "CAMILA MARTINS FERNANDES",
+    "estudante": 7,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.81387,
+    "longitude": -43.9803
+  },
+  {
+    "id": 77,
     "local": "Posto de Saúde Nossa Senhora de Fátima I",
     "endereco": "R. Rio Verde, 70 - Nossa Sra. de Fatima, Sabará - MG, 34600-630",
     "disciplina": "AS VI",
@@ -910,7 +1078,7 @@
     "longitude": -43.86301
   },
   {
-    "id": 66,
+    "id": 78,
     "local": "Posto de Saúde Nossa Senhora de Fátima I",
     "endereco": "R. Rio Verde, 70 - Nossa Sra. de Fatima, Sabará - MG, 34600-630",
     "disciplina": "AS VI",
@@ -924,7 +1092,21 @@
     "longitude": -43.86301
   },
   {
-    "id": 67,
+    "id": 79,
+    "local": "ESF Gameleira",
+    "endereco": "R. Gameleira 399, Confins - MG, 33500-000",
+    "disciplina": "AS VI",
+    "preceptor": "DANILO GUSTAVO GONÇALVES FERREIRA ROMANELLI",
+    "estudante": 7,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.62827,
+    "longitude": -43.98395
+  },
+  {
+    "id": 80,
     "local": "Centro de Saúde Guarani",
     "endereco": "Rua Pacaembu 160, Guarani, BH - MG - CEP 31840-100",
     "disciplina": "AS VI",
@@ -938,7 +1120,7 @@
     "longitude": -43.92423
   },
   {
-    "id": 68,
+    "id": 81,
     "local": "Centro de Saúde Serra Verde",
     "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
     "disciplina": "AS VI",
@@ -948,11 +1130,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.79531,
-    "longitude": -43.95374
+    "latitude": -19.79517,
+    "longitude": -43.9538
   },
   {
-    "id": 69,
+    "id": 82,
     "local": "Centro de Saúde Serra Verde",
     "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
     "disciplina": "AS VI",
@@ -962,11 +1144,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.79531,
-    "longitude": -43.95374
+    "latitude": -19.79517,
+    "longitude": -43.9538
   },
   {
-    "id": 70,
+    "id": 83,
     "local": "Centro de Saúde Lagoa",
     "endereco": "R. José Sabino Maciel, 176 - Lagoa, Belo Horizonte - MG, 31578-060",
     "disciplina": "AS VI",
@@ -980,7 +1162,7 @@
     "longitude": -44.00101
   },
   {
-    "id": 71,
+    "id": 84,
     "local": "Centro de Saúde Etelvina Carneiro",
     "endereco": "Rua TV Dois Mil Quatrocentos e Dezessete 235, Etelvina Carneiro,",
     "disciplina": "AS VI",
@@ -994,7 +1176,7 @@
     "longitude": -43.93173
   },
   {
-    "id": 72,
+    "id": 85,
     "local": "Centro de Saúde Alcides Lins",
     "endereco": "R. Panema, 275 - Concórdia, Belo Horizonte - MG, 31130-620",
     "disciplina": "AS VI",
@@ -1004,11 +1186,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.89512,
-    "longitude": -43.93752
+    "latitude": -19.89514,
+    "longitude": -43.93765
   },
   {
-    "id": 73,
+    "id": 86,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "AS VI",
@@ -1019,10 +1201,10 @@
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
     "latitude": -19.84571,
-    "longitude": -43.92098
+    "longitude": -43.92117
   },
   {
-    "id": 74,
+    "id": 87,
     "local": "Policlínica Gonçalo de Moura",
     "endereco": "Av. Coletora Três, 205, Bairro Morro Alto, Vespasiano - MG",
     "disciplina": "SA II",
@@ -1036,7 +1218,7 @@
     "longitude": -43.95391
   },
   {
-    "id": 75,
+    "id": 88,
     "local": "CEM Noroeste",
     "endereco": "Rua Padre Eustáquio, 1951 - 2º andar, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "SA II",
@@ -1050,7 +1232,7 @@
     "longitude": -43.97065
   },
   {
-    "id": 76,
+    "id": 89,
     "local": "Policlínica Nova Pampulha",
     "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
     "disciplina": "SA II",
@@ -1060,11 +1242,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.78156,
-    "longitude": -43.97235
+    "latitude": -19.78154,
+    "longitude": -43.9724
   },
   {
-    "id": 77,
+    "id": 90,
     "local": "Policlínica Gonçalo de Moura",
     "endereco": "Av. Coletora Três, 205, Bairro Morro Alto, Vespasiano - MG",
     "disciplina": "SA II",
@@ -1078,7 +1260,7 @@
     "longitude": -43.95391
   },
   {
-    "id": 78,
+    "id": 91,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA II",
@@ -1088,11 +1270,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.88836,
-    "longitude": -43.80795
+    "latitude": -19.88826,
+    "longitude": -43.80794
   },
   {
-    "id": 79,
+    "id": 92,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA II",
@@ -1102,11 +1284,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.88836,
-    "longitude": -43.80795
+    "latitude": -19.88826,
+    "longitude": -43.80794
   },
   {
-    "id": 80,
+    "id": 93,
     "local": "Policlínica Nova Pampulha",
     "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
     "disciplina": "SA II",
@@ -1116,11 +1298,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.78156,
-    "longitude": -43.97235
+    "latitude": -19.78154,
+    "longitude": -43.9724
   },
   {
-    "id": 81,
+    "id": 94,
     "local": "Policlínica Gonçalo de Moura",
     "endereco": "Av. Coletora Três, 205, Bairro Morro Alto, Vespasiano - MG",
     "disciplina": "SA II",
@@ -1134,7 +1316,7 @@
     "longitude": -43.95391
   },
   {
-    "id": 82,
+    "id": 95,
     "local": "Policlínica Gonçalo de Moura",
     "endereco": "Av. Coletora Três, 205, Bairro Morro Alto, Vespasiano - MG",
     "disciplina": "SA II",
@@ -1148,7 +1330,7 @@
     "longitude": -43.95391
   },
   {
-    "id": 83,
+    "id": 96,
     "local": "CEM Noroeste",
     "endereco": "Rua Padre Eustáquio, 1951 - 2º andar, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "SA II",
@@ -1162,7 +1344,7 @@
     "longitude": -43.97065
   },
   {
-    "id": 84,
+    "id": 97,
     "local": "Ambulatório do Hospital da Baleia",
     "endereco": "R. Juramento, 1464, Saudade - Belo Horizonte, MG",
     "disciplina": "SA II",
@@ -1176,9 +1358,9 @@
     "longitude": -43.89837
   },
   {
-    "id": 85,
+    "id": 98,
     "local": "CEM Venda Nova",
-    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000 ",
+    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000",
     "disciplina": "SA II",
     "preceptor": "VICTOR CINTRA",
     "estudante": 6,
@@ -1190,7 +1372,7 @@
     "longitude": -43.95332
   },
   {
-    "id": 86,
+    "id": 99,
     "local": "Ambulatório do Hospital da Baleia",
     "endereco": "R. Juramento, 1464, Saudade - Belo Horizonte, MG",
     "disciplina": "SA II",
@@ -1204,7 +1386,7 @@
     "longitude": -43.89837
   },
   {
-    "id": 87,
+    "id": 100,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA II",
@@ -1214,11 +1396,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.88836,
-    "longitude": -43.80795
+    "latitude": -19.88826,
+    "longitude": -43.80794
   },
   {
-    "id": 88,
+    "id": 101,
     "local": "Policlínica Nova Pampulha",
     "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
     "disciplina": "SA II",
@@ -1228,13 +1410,13 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.78156,
-    "longitude": -43.97235
+    "latitude": -19.78154,
+    "longitude": -43.9724
   },
   {
-    "id": 89,
+    "id": 102,
     "local": "CEM Venda Nova",
-    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000 ",
+    "endereco": "Rua Padre Pedro Pinto, 322 - Venda Nova, Belo Horizonte - MG, 31610-000",
     "disciplina": "SA II",
     "preceptor": "RAFAEL MATTOS TAVARES",
     "estudante": 7,
@@ -1246,7 +1428,21 @@
     "longitude": -43.95332
   },
   {
-    "id": 90,
+    "id": 103,
+    "local": "Centro de Saúde Trevo",
+    "endereco": "Rua Carlos Lacerda, 1010, Trevo, Belo Horizonte - MG, 31545-170",
+    "disciplina": "SCA I",
+    "preceptor": "GLAUCIA GATTONI MEDEIROS",
+    "estudante": 7,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.8328,
+    "longitude": -44.00702
+  },
+  {
+    "id": 104,
     "local": "Centro de Saúde MG20",
     "endereco": "Rua Padre Argemiro Moreira, 11900, Maria Teresa, Belo Horizonte - MG, 31873-168",
     "disciplina": "SCA I",
@@ -1260,7 +1456,7 @@
     "longitude": -43.88375
   },
   {
-    "id": 91,
+    "id": 105,
     "local": "Gavea II -  UBS  Inah Vercesi dos Santos",
     "endereco": "R. Yuri Gagarin, 425 - Gávea, Vespasiano - MG, 33200-000",
     "disciplina": "SCA I",
@@ -1274,7 +1470,7 @@
     "longitude": -43.94079
   },
   {
-    "id": 92,
+    "id": 106,
     "local": "UBS Otília Levinda Costa Matos - (UBS Vida Nova)",
     "endereco": "Rua dos Cardeais. S/N, Vida Nova - Vespasiano - MG",
     "disciplina": "SCA I",
@@ -1288,7 +1484,63 @@
     "longitude": -43.98804
   },
   {
-    "id": 93,
+    "id": 107,
+    "local": "Centro de Saúde Primeiro de Maio",
+    "endereco": "Rua Oscar Lobo Pereira, 270, Primeiro de Maio, Belo Horizonte - MG, 31812-070",
+    "disciplina": "SCA I",
+    "preceptor": "DEJANE PATRICIA DA SILVEIRA COQUEJO",
+    "estudante": 7,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.85947,
+    "longitude": -43.92771
+  },
+  {
+    "id": 108,
+    "local": "Centro de Saúde Floramar",
+    "endereco": "Rua Igaraunas, 15, Floramar, Belo Horizonte - MG, 31840-330",
+    "disciplina": "SCA I",
+    "preceptor": "MARIA LAURA PIRES DE CARVALHO PEREIRA",
+    "estudante": 6,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.83909,
+    "longitude": -43.9335
+  },
+  {
+    "id": 109,
+    "local": "Centro de Saúde Jardim Leblon",
+    "endereco": "Rua Coronel Antonio Lopes Coelho, 269, Jardim Leblon. Belo Horizonte - MG, 31540-380",
+    "disciplina": "SCA I",
+    "preceptor": "DEJANE PATRICIA DA SILVEIRA COQUEJO",
+    "estudante": 6,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.82552,
+    "longitude": -43.98752
+  },
+  {
+    "id": 110,
+    "local": "Centro de Saúde Jardim Felicidade",
+    "endereco": "R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
+    "disciplina": "SCA I",
+    "preceptor": "DEJANE PATRICIA DA SILVEIRA COQUEJO",
+    "estudante": 6,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.82235,
+    "longitude": -43.93104
+  },
+  {
+    "id": 111,
     "local": "Centro de Saúde Jardim Europa",
     "endereco": "Rua Edimburgo, 140, Europa, Belo Horizonte - MG, 31620-530",
     "disciplina": "SCA I",
@@ -1302,7 +1554,7 @@
     "longitude": -43.96709
   },
   {
-    "id": 94,
+    "id": 112,
     "local": "UBS Jardim da Glória",
     "endereco": "RUA AARAO REIS 35 CEP: 33206070 - Jardim Gloria - Vespasiano - MG",
     "disciplina": "SCA I",
@@ -1316,7 +1568,7 @@
     "longitude": -43.95244
   },
   {
-    "id": 95,
+    "id": 113,
     "local": "Gavea II -  UBS  Inah Vercesi dos Santos",
     "endereco": "R. Yuri Gagarin, 425 - Gávea, Vespasiano - MG, 33200-000",
     "disciplina": "SCA I",
@@ -1330,7 +1582,7 @@
     "longitude": -43.94079
   },
   {
-    "id": 96,
+    "id": 114,
     "local": "UBS Jardim da Glória",
     "endereco": "RUA AARAO REIS 35 CEP: 33206070 - Jardim Gloria - Vespasiano - MG",
     "disciplina": "SCA I",
@@ -1344,7 +1596,7 @@
     "longitude": -43.95244
   },
   {
-    "id": 97,
+    "id": 115,
     "local": "Centro de Saúde Serra Verde",
     "endereco": "Praça Fabricio Soares da Silva, 10, Serra Verde, Belo Horizonte - MG, 31630-572",
     "disciplina": "SCA I",
@@ -1354,11 +1606,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.79525,
-    "longitude": -43.95377
+    "latitude": -19.79517,
+    "longitude": -43.9538
   },
   {
-    "id": 98,
+    "id": 116,
     "local": "Centro de Saúde São Jorge",
     "endereco": "Rua Oscar Trompowsky, 1698, Nova Granada, Belo Horizonte - MG, 30451-163",
     "disciplina": "SCA I",
@@ -1372,7 +1624,7 @@
     "longitude": -43.96489
   },
   {
-    "id": 99,
+    "id": 117,
     "local": "Policlínica Nova Pampulha",
     "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
     "disciplina": "SCA I",
@@ -1382,11 +1634,25 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.78156,
-    "longitude": -43.97235
+    "latitude": -19.78154,
+    "longitude": -43.9724
   },
   {
-    "id": 100,
+    "id": 118,
+    "local": "Centro de Saúde Tupi",
+    "endereco": "Rua Jorge Amado, 91 - Tupi A, Belo Horizonte - MG, 31842-292",
+    "disciplina": "SCA I",
+    "preceptor": "DEJANE PATRICIA DA SILVEIRA COQUEJO",
+    "estudante": 5,
+    "periodo_original": "SEXTO",
+    "turma": "FAMED XXII",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.83561,
+    "longitude": -43.9227
+  },
+  {
+    "id": 119,
     "local": "Centro de Saúde MG20",
     "endereco": "Rua Padre Argemiro Moreira, 11900, Maria Teresa, Belo Horizonte - MG, 31873-168",
     "disciplina": "SCA I",
@@ -1400,7 +1666,7 @@
     "longitude": -43.88375
   },
   {
-    "id": 101,
+    "id": 120,
     "local": "Centro de Saúde Serra Verde",
     "endereco": "Praça Fabricio Soares da Silva, 10, Serra Verde, Belo Horizonte - MG, 31630-572",
     "disciplina": "SCA I",
@@ -1410,11 +1676,11 @@
     "turma": "FAMED XXII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.79525,
-    "longitude": -43.95377
+    "latitude": -19.79517,
+    "longitude": -43.9538
   },
   {
-    "id": 102,
+    "id": 121,
     "local": "UBS Cuidar Vila José Fagundes",
     "endereco": "R. Pinto Alves. 3755, Vila Maria, CEP 33400-000",
     "disciplina": "AS VII",
@@ -1424,11 +1690,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.59559,
-    "longitude": -43.90812
+    "latitude": -19.60373,
+    "longitude": -43.90719
   },
   {
-    "id": 103,
+    "id": 122,
     "local": "UBS Nova Pampulha (Policlínica Niova Pampulha)",
     "endereco": "Av. Divino Marques Guimarães 321, bairro Nova Pampulha, Vespasiano (ao lado da Escola Municipal Bárbara Maria Salomão)",
     "disciplina": "AS VII",
@@ -1442,7 +1708,7 @@
     "longitude": -43.97219
   },
   {
-    "id": 104,
+    "id": 123,
     "local": "UBS Nova Pampulha (Policlínica Niova Pampulha)",
     "endereco": "Av. Divino Marques Guimarães 321, bairro Nova Pampulha, Vespasiano (ao lado da Escola Municipal Bárbara Maria Salomão)",
     "disciplina": "AS VII",
@@ -1456,7 +1722,7 @@
     "longitude": -43.97219
   },
   {
-    "id": 105,
+    "id": 124,
     "local": "UBS Jardim da Glória",
     "endereco": "RUA AARAO REIS 35 CEP: 33206070 - Jardim Gloria - Vespasiano - MG",
     "disciplina": "AS VII",
@@ -1466,11 +1732,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.74883,
-    "longitude": -43.95256
+    "latitude": -19.74889,
+    "longitude": -43.95244
   },
   {
-    "id": 106,
+    "id": 125,
     "local": "Centro de Saúde Santa Mônica",
     "endereco": "Rua dos Zapotecas 98, bairro Santa Mônica, Belo Horizonte - MG",
     "disciplina": "AS VII",
@@ -1480,11 +1746,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.82925,
-    "longitude": -43.97679
+    "latitude": -19.82859,
+    "longitude": -43.977
   },
   {
-    "id": 107,
+    "id": 126,
     "local": "Centro de Saúde Rio Branco",
     "endereco": "R. Crisanto Muniz, 120 - Rio Branco, Belo Horizonte - MG, 31535-450",
     "disciplina": "AS VII",
@@ -1494,11 +1760,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.81396,
-    "longitude": -43.98029
+    "latitude": -19.81387,
+    "longitude": -43.9803
   },
   {
-    "id": 108,
+    "id": 127,
     "local": "PSF Cuidar Pôr do Sol",
     "endereco": "Rua Paula Pinto, 298 –Por do sol - Lagoa Santa-MG",
     "disciplina": "AS VII",
@@ -1508,11 +1774,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.60787,
-    "longitude": -43.90907
+    "latitude": -19.60791,
+    "longitude": -43.90908
   },
   {
-    "id": 109,
+    "id": 128,
     "local": "Posto de Saúde General Carneiro",
     "endereco": "R. Rio Grande do Sul, 12, General Carneiro, Sabará, MG, CEP 34585-260",
     "disciplina": "AS VII",
@@ -1522,11 +1788,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.87899,
-    "longitude": -43.85417
+    "latitude": -19.88428,
+    "longitude": -43.85266
   },
   {
-    "id": 110,
+    "id": 129,
     "local": "ESF Gameleira",
     "endereco": "R. Gameleira 399, Confins - MG, 33500-000",
     "disciplina": "AS VII",
@@ -1540,7 +1806,7 @@
     "longitude": -43.98395
   },
   {
-    "id": 111,
+    "id": 130,
     "local": "ESF Adélia Issa",
     "endereco": "Rua Luiz Pires, 55, Adélia Issa - Pedro Leopoldo - MG CEP 33600-000",
     "disciplina": "AS VII",
@@ -1554,9 +1820,51 @@
     "longitude": -44.02839
   },
   {
-    "id": 112,
+    "id": 131,
+    "local": "Centro de Saúde Serra Verde",
+    "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
+    "disciplina": "AS VII",
+    "preceptor": "NIVALDO PIRES BICALHO",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.79517,
+    "longitude": -43.9538
+  },
+  {
+    "id": 132,
+    "local": "Centro de Saúde Serra Verde",
+    "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
+    "disciplina": "AS VII",
+    "preceptor": "RAHMATULLAH JAVIDAN SAMANI NETO",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.79517,
+    "longitude": -43.9538
+  },
+  {
+    "id": 133,
+    "local": "Centro de Saúde Serra Verde",
+    "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
+    "disciplina": "AS VII",
+    "preceptor": "LAIS MARCATTO DO CARMO",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.79517,
+    "longitude": -43.9538
+  },
+  {
+    "id": 134,
     "local": "Centro de Saúde Jardim Felicidade",
-    "endereco": " R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
+    "endereco": "R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
     "disciplina": "AS VII",
     "preceptor": "VINICIUS REZENDE SILVEIRA",
     "estudante": 6,
@@ -1564,11 +1872,25 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.82238,
-    "longitude": -43.93116
+    "latitude": -19.82235,
+    "longitude": -43.93104
   },
   {
-    "id": 113,
+    "id": 135,
+    "local": "Centro de Saúde Alcides Lins",
+    "endereco": "R. Panema, 275 - Concórdia, Belo Horizonte - MG, 31130-620",
+    "disciplina": "AS VII",
+    "preceptor": "MATHEUS SERAPIÃO TEODORO",
+    "estudante": 8,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.89514,
+    "longitude": -43.93765
+  },
+  {
+    "id": 136,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "AS VII",
@@ -1578,11 +1900,25 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.84576,
-    "longitude": -43.92101
+    "latitude": -19.84571,
+    "longitude": -43.92117
   },
   {
-    "id": 114,
+    "id": 137,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "SA III",
+    "preceptor": "NAILA TRÍCIA DO ESPÍRITO SANTO",
+    "estudante": 5,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 138,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA III",
@@ -1596,7 +1932,21 @@
     "longitude": -43.92802
   },
   {
-    "id": 115,
+    "id": 139,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "SA III",
+    "preceptor": "VICTOR HUGO FERREIRA E LÉDA",
+    "estudante": 5,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 140,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA III",
@@ -1610,7 +1960,21 @@
     "longitude": -43.92802
   },
   {
-    "id": 116,
+    "id": 141,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "SA III",
+    "preceptor": "VICTOR HUGO FERREIRA E LÉDA",
+    "estudante": 5,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 142,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA III",
@@ -1624,7 +1988,7 @@
     "longitude": -43.92802
   },
   {
-    "id": 117,
+    "id": 143,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA III",
@@ -1638,7 +2002,21 @@
     "longitude": -43.92802
   },
   {
-    "id": 118,
+    "id": 144,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "SA III",
+    "preceptor": "LUIZA RAKSA REZENDE",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 145,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA III",
@@ -1652,7 +2030,7 @@
     "longitude": -43.92802
   },
   {
-    "id": 119,
+    "id": 146,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA III",
@@ -1666,7 +2044,21 @@
     "longitude": -43.92802
   },
   {
-    "id": 120,
+    "id": 147,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "SA III",
+    "preceptor": "VICTOR HUGO FERREIRA E LÉDA",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 148,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA III",
@@ -1680,7 +2072,21 @@
     "longitude": -43.92802
   },
   {
-    "id": 121,
+    "id": 149,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "CC I",
+    "preceptor": "GENNARO ANTONUCCI AMARAL",
+    "estudante": 4,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 150,
     "local": "URS Padre Eustáquio",
     "endereco": "Rua Padre Eustáquio, 1951, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "CC I",
@@ -1690,11 +2096,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.91516,
-    "longitude": -43.97069
+    "latitude": -19.91518,
+    "longitude": -43.97077
   },
   {
-    "id": 122,
+    "id": 151,
     "local": "URS Padre Eustáquio",
     "endereco": "Rua Padre Eustáquio, 1951, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "CC I",
@@ -1704,11 +2110,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.91516,
-    "longitude": -43.97069
+    "latitude": -19.91518,
+    "longitude": -43.97077
   },
   {
-    "id": 123,
+    "id": 152,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "CC I",
@@ -1722,7 +2128,7 @@
     "longitude": -43.97765
   },
   {
-    "id": 124,
+    "id": 153,
     "local": "URS Centro-Sul",
     "endereco": "Rua Paraiba, 890 - 1º andar, Savassi, Belo Horizonte - MG, 30130-145",
     "disciplina": "CC I",
@@ -1732,11 +2138,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.93412,
-    "longitude": -43.93335
+    "latitude": -19.93407,
+    "longitude": -43.93346
   },
   {
-    "id": 125,
+    "id": 154,
     "local": "URS Centro-Sul",
     "endereco": "Rua Paraiba, 890 - 1º andar, Savassi, Belo Horizonte - MG, 30130-145",
     "disciplina": "CC I",
@@ -1746,11 +2152,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.93412,
-    "longitude": -43.93335
+    "latitude": -19.93407,
+    "longitude": -43.93346
   },
   {
-    "id": 126,
+    "id": 155,
     "local": "URS Padre Eustáquio",
     "endereco": "Rua Padre Eustáquio, 1951, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "CC I",
@@ -1764,7 +2170,7 @@
     "longitude": -43.97077
   },
   {
-    "id": 127,
+    "id": 156,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "CC I",
@@ -1778,7 +2184,21 @@
     "longitude": -43.97765
   },
   {
-    "id": 128,
+    "id": 157,
+    "local": "Santa Casa de Lagoa Santa",
+    "endereco": "R. Caiçara, 500 - Vila Pinto Coelho, Lagoa Santa - MG, 33230-279",
+    "disciplina": "CC I",
+    "preceptor": "TIAGO ARAUJO ALVES",
+    "estudante": 5,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.6253,
+    "longitude": -43.90108
+  },
+  {
+    "id": 158,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "CC I",
@@ -1792,7 +2212,7 @@
     "longitude": -43.92802
   },
   {
-    "id": 129,
+    "id": 159,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "CC I",
@@ -1806,7 +2226,21 @@
     "longitude": -43.92802
   },
   {
-    "id": 130,
+    "id": 160,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "CC I",
+    "preceptor": "JADER DAVID RICCO",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 161,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "CC I",
@@ -1816,11 +2250,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.88836,
-    "longitude": -43.80789
+    "latitude": -19.88826,
+    "longitude": -43.80794
   },
   {
-    "id": 131,
+    "id": 162,
     "local": "URS Padre Eustáquio",
     "endereco": "Rua Padre Eustáquio, 1951, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "CC I",
@@ -1834,7 +2268,7 @@
     "longitude": -43.97077
   },
   {
-    "id": 132,
+    "id": 163,
     "local": "URS Padre Eustáquio",
     "endereco": "Rua Padre Eustáquio, 1951, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "CC I",
@@ -1848,7 +2282,7 @@
     "longitude": -43.97077
   },
   {
-    "id": 133,
+    "id": 164,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "CC I",
@@ -1862,7 +2296,7 @@
     "longitude": -43.97765
   },
   {
-    "id": 134,
+    "id": 165,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "CC I",
@@ -1876,7 +2310,7 @@
     "longitude": -43.97765
   },
   {
-    "id": 135,
+    "id": 166,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "CC I",
@@ -1890,7 +2324,7 @@
     "longitude": -43.97765
   },
   {
-    "id": 136,
+    "id": 167,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "CC I",
@@ -1904,7 +2338,7 @@
     "longitude": -43.97765
   },
   {
-    "id": 137,
+    "id": 168,
     "local": "URS Centro-Sul",
     "endereco": "Rua Paraiba, 890 - 1º andar, Savassi, Belo Horizonte - MG, 30130-145",
     "disciplina": "CC I",
@@ -1918,7 +2352,7 @@
     "longitude": -43.93346
   },
   {
-    "id": 138,
+    "id": 169,
     "local": "URS Centro-Sul",
     "endereco": "Rua Paraiba, 890 - 1º andar, Savassi, Belo Horizonte - MG, 30130-145",
     "disciplina": "CC I",
@@ -1932,7 +2366,7 @@
     "longitude": -43.93346
   },
   {
-    "id": 139,
+    "id": 170,
     "local": "URS Padre Eustáquio",
     "endereco": "Rua Padre Eustáquio, 1951, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "CC I",
@@ -1946,7 +2380,7 @@
     "longitude": -43.97077
   },
   {
-    "id": 140,
+    "id": 171,
     "local": "URS Padre Eustáquio",
     "endereco": "Rua Padre Eustáquio, 1951, Padre Eustáquio - Belo Horizonte, MG, 30720-100",
     "disciplina": "CC I",
@@ -1960,7 +2394,21 @@
     "longitude": -43.97077
   },
   {
-    "id": 141,
+    "id": 172,
+    "local": "Centro de Saúde Dom Joaquim",
+    "endereco": "Avenida Joaquim Jose Diniz, 855, Fernão Dias, Belo Horizonte - MG, 31910-520",
+    "disciplina": "SCA II",
+    "preceptor": "AGHATA MARCELA ANDRADE DE AGUIAR",
+    "estudante": 5,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.8754,
+    "longitude": -43.91597
+  },
+  {
+    "id": 173,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "SCA II",
@@ -1974,7 +2422,7 @@
     "longitude": -43.97765
   },
   {
-    "id": 142,
+    "id": 174,
     "local": "Centro de Saúde Tupi",
     "endereco": "Rua Jorge Amado, 91 - Tupi A, Belo Horizonte - MG, 31842-292",
     "disciplina": "SCA II",
@@ -1984,11 +2432,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.83559,
-    "longitude": -43.92271
+    "latitude": -19.83561,
+    "longitude": -43.9227
   },
   {
-    "id": 143,
+    "id": 175,
     "local": "Centro de Saúde Jardim Leblon",
     "endereco": "Rua Coronel Antonio Lopes Coelho, 269, Jardim Leblon. Belo Horizonte - MG, 31540-380",
     "disciplina": "SCA II",
@@ -2002,7 +2450,7 @@
     "longitude": -43.98752
   },
   {
-    "id": 144,
+    "id": 176,
     "local": "Centro de Saúde Céu Azul",
     "endereco": "Rua Radialista Romeu Barbosa, 123, Céu Azul, Belo Horizonte - MG, 31580-510",
     "disciplina": "SCA II",
@@ -2016,7 +2464,21 @@
     "longitude": -44.00224
   },
   {
-    "id": 145,
+    "id": 177,
+    "local": "Policlínica Nova Pampulha",
+    "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
+    "disciplina": "SCA II",
+    "preceptor": "LUDMILA QUEIROZ CABRAL COSTA",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.78154,
+    "longitude": -43.9724
+  },
+  {
+    "id": 178,
     "local": "Centro de Saúde Céu Azul",
     "endereco": "Rua Radialista Romeu Barbosa, 123, Céu Azul, Belo Horizonte - MG, 31580-510",
     "disciplina": "SCA II",
@@ -2030,7 +2492,7 @@
     "longitude": -44.00224
   },
   {
-    "id": 146,
+    "id": 179,
     "local": "URS Campos Sales",
     "endereco": "Rua Campos Sales, 472, Calafate - Belo Horizonte, MG, 30411-470",
     "disciplina": "SCA II",
@@ -2044,7 +2506,7 @@
     "longitude": -43.97765
   },
   {
-    "id": 147,
+    "id": 180,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SCA II",
@@ -2054,11 +2516,53 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.88833,
-    "longitude": -43.80795
+    "latitude": -19.88826,
+    "longitude": -43.80794
   },
   {
-    "id": 148,
+    "id": 181,
+    "local": "Centro de Saúde Floramar",
+    "endereco": "Rua Igaraunas, 15, Floramar, Belo Horizonte - MG, 31840-330",
+    "disciplina": "SM II",
+    "preceptor": "PEDRO RAFFAEL FARIAS FERREIRA",
+    "estudante": 4,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.83909,
+    "longitude": -43.9335
+  },
+  {
+    "id": 182,
+    "local": "Centro de Saúde Jardim Filadélfia",
+    "endereco": "Rua Caitite, 319  [ATUAL RUA REGIDA], Conjunto Jardim Filadélfia, Belo Horizonte - MG, 30860-330",
+    "disciplina": "SM II",
+    "preceptor": "LUCAS RICARDO ANDRADE",
+    "estudante": 4,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.90427,
+    "longitude": -44.0107
+  },
+  {
+    "id": 183,
+    "local": "UBS Otília Levinda Costa Matos - (UBS Vida Nova)",
+    "endereco": "Rua dos Cardeais. S/N, Vida Nova - Vespasiano - MG",
+    "disciplina": "SM II",
+    "preceptor": "NATHALIA LACERDA ELLER COSTA",
+    "estudante": 5,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.76186,
+    "longitude": -43.98804
+  },
+  {
+    "id": 184,
     "local": "Centro de Saúde Primeiro de Maio",
     "endereco": "Rua Oscar Lobo Pereira, 270, Primeiro de Maio, Belo Horizonte - MG, 31812-070",
     "disciplina": "SM II",
@@ -2068,11 +2572,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.85956,
-    "longitude": -43.92765
+    "latitude": -19.85947,
+    "longitude": -43.92771
   },
   {
-    "id": 149,
+    "id": 185,
     "local": "UBS Prefeito Glenan Conrado",
     "endereco": "Rua Cinquenta e Sete, 80, Nova Pampulha 3ª e 4ª Seção, Vespasiano - MG",
     "disciplina": "SM II",
@@ -2086,7 +2590,7 @@
     "longitude": -43.96345
   },
   {
-    "id": 150,
+    "id": 186,
     "local": "Centro de Saúde Padre Tiago",
     "endereco": "Avenida João XXIII, 1233 (Próximo à esquina de Avenida Tancredo Neves), Manacás, Belo Horizonte - MG, 30820-660",
     "disciplina": "SM II",
@@ -2100,7 +2604,7 @@
     "longitude": -43.99408
   },
   {
-    "id": 151,
+    "id": 187,
     "local": "UBS Célvia I",
     "endereco": "Rua Paraná 231, Célvia, Vespasiano",
     "disciplina": "SM II",
@@ -2110,11 +2614,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ",
-    "latitude": -19.69053,
-    "longitude": -43.93532
+    "latitude": -19.69054,
+    "longitude": -43.93539
   },
   {
-    "id": 152,
+    "id": 188,
     "local": "Centro de Saúde Andradas",
     "endereco": "Rua Mariana Amelia de Azevedo, 21, São João Batista, Belo Horizonte - MG, 31510-470",
     "disciplina": "SM II",
@@ -2128,7 +2632,7 @@
     "longitude": -43.96293
   },
   {
-    "id": 153,
+    "id": 189,
     "local": "Centro de Saúde Jardim Comerciários",
     "endereco": "Rua Maria da Paz Maia, 168, Jardim Comerciários, Belo Horizonte - MG, 31652-160",
     "disciplina": "SM II",
@@ -2142,7 +2646,7 @@
     "longitude": -43.97588
   },
   {
-    "id": 154,
+    "id": 190,
     "local": "Centro de Saúde Primeiro de Maio",
     "endereco": "Rua Oscar Lobo Pereira, 270, Primeiro de Maio, Belo Horizonte - MG, 31812-070",
     "disciplina": "SM II",
@@ -2156,7 +2660,7 @@
     "longitude": -43.92771
   },
   {
-    "id": 155,
+    "id": 191,
     "local": "Centro de Saúde Padre Tiago",
     "endereco": "Avenida João XXIII, 1233 (Próximo à esquina de Avenida Tancredo Neves), Manacás, Belo Horizonte - MG, 30820-660",
     "disciplina": "SM II",
@@ -2170,7 +2674,49 @@
     "longitude": -43.99408
   },
   {
-    "id": 156,
+    "id": 192,
+    "local": "UBS Otília Levinda Costa Matos - (UBS Vida Nova)",
+    "endereco": "Rua dos Cardeais. S/N, Vida Nova - Vespasiano - MG",
+    "disciplina": "SM II",
+    "preceptor": "LAISSA NASCIMENTO BERNARDES SOUZA",
+    "estudante": 6,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.76186,
+    "longitude": -43.98804
+  },
+  {
+    "id": 193,
+    "local": "Centro de Saúde Floramar",
+    "endereco": "Rua Igaraunas, 15, Floramar, Belo Horizonte - MG, 31840-330",
+    "disciplina": "SM II",
+    "preceptor": "PAULA RIBEIRO MOTA",
+    "estudante": 4,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.83909,
+    "longitude": -43.9335
+  },
+  {
+    "id": 194,
+    "local": "Centro de Saúde Boa Vista",
+    "endereco": "Rua Gurua, 833, Boa Vista, Belo Horizonte - MG, 31060-560",
+    "disciplina": "SM II",
+    "preceptor": "LUCAS RICARDO ANDRADE",
+    "estudante": 4,
+    "periodo_original": "SÉTIMO",
+    "turma": "FAMED XXI",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.89191,
+    "longitude": -43.89718
+  },
+  {
+    "id": 195,
     "local": "Centro de Saúde Zilah Spósito",
     "endereco": "R. Coquilhos, 85 - Jaqueline, Belo Horizonte - MG, 31748-495",
     "disciplina": "SM II",
@@ -2180,11 +2726,11 @@
     "turma": "FAMED XXI",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.80468,
-    "longitude": -43.92809
+    "latitude": -19.80454,
+    "longitude": -43.92834
   },
   {
-    "id": 157,
+    "id": 196,
     "local": "UBS Roça Grande",
     "endereco": "Rua Santana 545, Roça Grande - Sabará - MG",
     "disciplina": "AS VIII",
@@ -2194,13 +2740,13 @@
     "turma": "FAMED XX",
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
-    "latitude": -19.89161,
-    "longitude": -43.83161
+    "latitude": -19.89158,
+    "longitude": -43.83156
   },
   {
-    "id": 158,
+    "id": 197,
     "local": "Centro de Saúde Jardim Felicidade",
-    "endereco": " R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
+    "endereco": "R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
     "disciplina": "AS VIII",
     "preceptor": "VINICIUS REZENDE SILVEIRA",
     "estudante": 6,
@@ -2212,7 +2758,21 @@
     "longitude": -43.93104
   },
   {
-    "id": 159,
+    "id": 198,
+    "local": "Centro de Saúde Rio Branco",
+    "endereco": "R. Crisanto Muniz, 120 - Rio Branco, Belo Horizonte - MG, 31535-450",
+    "disciplina": "AS VIII",
+    "preceptor": "CAMJILA MARTINS FERNANDES",
+    "estudante": 6,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "TARDE",
+    "latitude": -19.81387,
+    "longitude": -43.9803
+  },
+  {
+    "id": 199,
     "local": "Posto de Saúde General Carneiro",
     "endereco": "R. Rio Grande do Sul, 12, General Carneiro, Sabará, MG, CEP 34585-260",
     "disciplina": "AS VIII",
@@ -2226,7 +2786,7 @@
     "longitude": -43.85266
   },
   {
-    "id": 160,
+    "id": 200,
     "local": "UBS Moradas da Serra",
     "endereco": "Av. Minas Gerais 715, Morada da Serra, Ibirité - MG, CEP 32400-000",
     "disciplina": "AS VIII",
@@ -2240,7 +2800,7 @@
     "longitude": -44.04106
   },
   {
-    "id": 161,
+    "id": 201,
     "local": "Gavea II -  UBS  Inah Vercesi dos Santos",
     "endereco": "R. Yuri Gagarin, 425 - Gávea, Vespasiano - MG, 33200-000",
     "disciplina": "AS VIII",
@@ -2251,10 +2811,38 @@
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
     "latitude": -19.75417,
-    "longitude": -43.94077
+    "longitude": -43.94079
   },
   {
-    "id": 162,
+    "id": 202,
+    "local": "Centro de Saúde Serra Verde",
+    "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
+    "disciplina": "AS VIII",
+    "preceptor": "NIVALDO PIRES BICALHO",
+    "estudante": 7,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "MANHÃ",
+    "latitude": -19.79517,
+    "longitude": -43.9538
+  },
+  {
+    "id": 203,
+    "local": "Centro de Saúde Serra Verde",
+    "endereco": "Rua Guido Leão, Praça Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
+    "disciplina": "AS VIII",
+    "preceptor": "RAHMATULLAH JAVIDAN SAMANI NETO",
+    "estudante": 7,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "MANHÃ",
+    "latitude": -19.79517,
+    "longitude": -43.9538
+  },
+  {
+    "id": 204,
     "local": "Centro de Saúde Lagoa",
     "endereco": "R. José Sabino Maciel, 176 - Lagoa, Belo Horizonte - MG, 31578-060",
     "disciplina": "AS VIII",
@@ -2265,12 +2853,12 @@
     "categoria": "Médico Generalista / MFC",
     "turno": "MANHÃ",
     "latitude": -19.80914,
-    "longitude": -44.00106
+    "longitude": -44.00101
   },
   {
-    "id": 163,
+    "id": 205,
     "local": "Centro de Saúde Jardim Felicidade",
-    "endereco": " R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
+    "endereco": "R. Sônia Braz Xavier, 321, Jardiim Felicidade Belo Horizonte - MG",
     "disciplina": "AS VIII",
     "preceptor": "JOELMARA IVO DA SILVA",
     "estudante": 6,
@@ -2282,7 +2870,7 @@
     "longitude": -43.93104
   },
   {
-    "id": 164,
+    "id": 206,
     "local": "Centro de Saúde Alcides Lins",
     "endereco": "R. Panema, 275 - Concórdia, Belo Horizonte - MG, 31130-620",
     "disciplina": "AS VIII",
@@ -2292,11 +2880,11 @@
     "turma": "FAMED XX",
     "categoria": "Médico Generalista / MFC",
     "turno": "TARDE",
-    "latitude": -19.89495,
-    "longitude": -43.93752
+    "latitude": -19.89514,
+    "longitude": -43.93765
   },
   {
-    "id": 165,
+    "id": 207,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "AS VIII",
@@ -2310,7 +2898,7 @@
     "longitude": -43.92117
   },
   {
-    "id": 166,
+    "id": 208,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "AS VIII",
@@ -2324,7 +2912,7 @@
     "longitude": -43.92117
   },
   {
-    "id": 167,
+    "id": 209,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Av. Waldomiro Lobo, 177 - Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "AS VIII",
@@ -2338,7 +2926,7 @@
     "longitude": -43.92117
   },
   {
-    "id": 168,
+    "id": 210,
     "local": "UBS Alvorada",
     "endereco": "R. Carlos Chagas, 977 esquina com Campanha, Alvorada, Sabará - MG, 34700-170 OBS: Não ir para rua de mesmo nome no Bairro Fátima",
     "disciplina": "AS VIII",
@@ -2352,7 +2940,7 @@
     "longitude": -43.89367
   },
   {
-    "id": 169,
+    "id": 211,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2366,7 +2954,7 @@
     "longitude": -43.80794
   },
   {
-    "id": 170,
+    "id": 212,
     "local": "CEM Leste",
     "endereco": "Rua Joaquim Felício, 101 - 8º andar, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA IV",
@@ -2380,7 +2968,7 @@
     "longitude": -43.92798
   },
   {
-    "id": 171,
+    "id": 213,
     "local": "SAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2394,7 +2982,7 @@
     "longitude": -43.80793
   },
   {
-    "id": 172,
+    "id": 214,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2408,7 +2996,7 @@
     "longitude": -43.80794
   },
   {
-    "id": 173,
+    "id": 215,
     "local": "CEM Nordeste",
     "endereco": "Rua Joaquim Felício, 101 - 6º andar, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA IV",
@@ -2422,7 +3010,7 @@
     "longitude": -43.92784
   },
   {
-    "id": 174,
+    "id": 216,
     "local": "SAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2436,7 +3024,7 @@
     "longitude": -43.80793
   },
   {
-    "id": 175,
+    "id": 217,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA IV",
@@ -2446,11 +3034,11 @@
     "turma": "FAMED XX",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.90798,
-    "longitude": -43.92791
+    "latitude": -19.90788,
+    "longitude": -43.92802
   },
   {
-    "id": 176,
+    "id": 218,
     "local": "CEM Leste",
     "endereco": "Rua Joaquim Felício, 101 - 8º andar, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA IV",
@@ -2464,7 +3052,7 @@
     "longitude": -43.92798
   },
   {
-    "id": 177,
+    "id": 219,
     "local": "SAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2478,7 +3066,7 @@
     "longitude": -43.80793
   },
   {
-    "id": 178,
+    "id": 220,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2492,7 +3080,7 @@
     "longitude": -43.80794
   },
   {
-    "id": 179,
+    "id": 221,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2506,7 +3094,7 @@
     "longitude": -43.80794
   },
   {
-    "id": 180,
+    "id": 222,
     "local": "Centro de Saúde Fábio Correa Lima",
     "endereco": "Rua Ilha de Malta, 353 - São Gabriel, Belo Horizonte - MG, 31980-390",
     "disciplina": "SA IV",
@@ -2516,11 +3104,11 @@
     "turma": "FAMED XX",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.85662,
-    "longitude": -43.91413
+    "latitude": -19.85653,
+    "longitude": -43.91414
   },
   {
-    "id": 181,
+    "id": 223,
     "local": "URS Sagrada Família",
     "endereco": "Rua Joaquim Felício, 101, Sagrada Família, Belo Horizonte - MG, 31030-200",
     "disciplina": "SA IV",
@@ -2530,11 +3118,11 @@
     "turma": "FAMED XX",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.90798,
-    "longitude": -43.92791
+    "latitude": -19.90788,
+    "longitude": -43.92802
   },
   {
-    "id": 182,
+    "id": 224,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2548,7 +3136,21 @@
     "longitude": -43.80794
   },
   {
-    "id": 183,
+    "id": 225,
+    "local": "UBS Jardim da Glória",
+    "endereco": "Rua Aarão Reis, 35 - Jardim da Glória, Vespasiano",
+    "disciplina": "SA IV",
+    "preceptor": "ARISTARCO DE PINHO FERREIRA JUNIOR",
+    "estudante": 6,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.74889,
+    "longitude": -43.95244
+  },
+  {
+    "id": 226,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2562,7 +3164,7 @@
     "longitude": -43.80794
   },
   {
-    "id": 184,
+    "id": 227,
     "local": "CEMAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2576,7 +3178,7 @@
     "longitude": -43.80794
   },
   {
-    "id": 185,
+    "id": 228,
     "local": "SAE",
     "endereco": "Rua Francisco de Assis Pereira, 191 - Centro, Sabará - MG",
     "disciplina": "SA IV",
@@ -2590,7 +3192,7 @@
     "longitude": -43.80793
   },
   {
-    "id": 186,
+    "id": 229,
     "local": "UPA Norte",
     "endereco": "Avenida Risoleta Neves, 2580 - Ao lado do CRAS (Centro de Referência de Assistência Socia)l, Novo Aarão Reis, Belo Horizonte - MG 31845-425",
     "disciplina": "CC II",
@@ -2604,7 +3206,7 @@
     "longitude": -43.91429
   },
   {
-    "id": 187,
+    "id": 230,
     "local": "Santa Casa de Lagoa Santa",
     "endereco": "R. Caiçara, 500 - Vila Pinto Coelho, Lagoa Santa - MG, 33230-279",
     "disciplina": "CC II",
@@ -2614,11 +3216,11 @@
     "turma": "FAMED XX",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.62521,
-    "longitude": -43.90107
+    "latitude": -19.6253,
+    "longitude": -43.90108
   },
   {
-    "id": 188,
+    "id": 231,
     "local": "Hospital João XXIII",
     "endereco": "Av. Prof. Alfredo Balena, 400 - Centro, Belo Horizonte - MG, 30130-100",
     "disciplina": "CC II",
@@ -2632,7 +3234,7 @@
     "longitude": -43.93105
   },
   {
-    "id": 189,
+    "id": 232,
     "local": "UPA Norte",
     "endereco": "Avenida Risoleta Neves, 2580 - Ao lado do CRAS (Centro de Referência de Assistência Socia)l, Novo Aarão Reis, Belo Horizonte - MG 31845-425",
     "disciplina": "CC II",
@@ -2646,7 +3248,7 @@
     "longitude": -43.91429
   },
   {
-    "id": 190,
+    "id": 233,
     "local": "Hospital João XXIII",
     "endereco": "Av. Prof. Alfredo Balena, 400 - Centro, Belo Horizonte - MG, 30130-100",
     "disciplina": "CC II",
@@ -2660,7 +3262,7 @@
     "longitude": -43.93105
   },
   {
-    "id": 191,
+    "id": 234,
     "local": "UPA Norte",
     "endereco": "Avenida Risoleta Neves, 2580 - Ao lado do CRAS (Centro de Referência de Assistência Socia)l, Novo Aarão Reis, Belo Horizonte - MG 31845-425",
     "disciplina": "CC II",
@@ -2674,7 +3276,7 @@
     "longitude": -43.91429
   },
   {
-    "id": 192,
+    "id": 235,
     "local": "Hospital João XXIII",
     "endereco": "Av. Prof. Alfredo Balena, 400 - Centro, Belo Horizonte - MG, 30130-100",
     "disciplina": "SCA III",
@@ -2688,7 +3290,7 @@
     "longitude": -43.93105
   },
   {
-    "id": 193,
+    "id": 236,
     "local": "Hospital João XXIII",
     "endereco": "Av. Prof. Alfredo Balena, 400 - Centro, Belo Horizonte - MG, 30130-100",
     "disciplina": "SCA III",
@@ -2702,7 +3304,7 @@
     "longitude": -43.93105
   },
   {
-    "id": 194,
+    "id": 237,
     "local": "Hospital João XXIII",
     "endereco": "Av. Prof. Alfredo Balena, 400 - Centro, Belo Horizonte - MG, 30130-100",
     "disciplina": "SCA III",
@@ -2716,7 +3318,7 @@
     "longitude": -43.93105
   },
   {
-    "id": 195,
+    "id": 238,
     "local": "UPA Norte",
     "endereco": "Avenida Risoleta Neves, 2580 - Ao lado do CRAS (Centro de Referência de Assistência Socia)l, Novo Aarão Reis, Belo Horizonte - MG 31845-425",
     "disciplina": "SCA III",
@@ -2730,7 +3332,35 @@
     "longitude": -43.91429
   },
   {
-    "id": 196,
+    "id": 239,
+    "local": "UPA Sabará - Padre Lázaro",
+    "endereco": "MG-262, 7000 - Nações Unidas, Sabará - MG",
+    "disciplina": "SCA III",
+    "preceptor": "ESTHER PEREIRA SOARES",
+    "estudante": 4,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.87695,
+    "longitude": -43.8694
+  },
+  {
+    "id": 240,
+    "local": "UPA Vespasiano - Prefeito Luiz Issa",
+    "endereco": "R. Tiradentes, 185-215 - Centro, Vespasiano - MG, 33200-000",
+    "disciplina": "SCA III",
+    "preceptor": "GIANE CRISTINE LOPES",
+    "estudante": 8,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.6551,
+    "longitude": -43.91766
+  },
+  {
+    "id": 241,
     "local": "UPA Norte",
     "endereco": "Avenida Risoleta Neves, 2580 - Ao lado do CRAS (Centro de Referência de Assistência Socia)l, Novo Aarão Reis, Belo Horizonte - MG 31845-425",
     "disciplina": "SCA III",
@@ -2744,7 +3374,7 @@
     "longitude": -43.91429
   },
   {
-    "id": 197,
+    "id": 242,
     "local": "UPA Norte",
     "endereco": "Avenida Risoleta Neves, 2580 - Ao lado do CRAS (Centro de Referência de Assistência Socia)l, Novo Aarão Reis, Belo Horizonte - MG 31845-425",
     "disciplina": "SCA III",
@@ -2758,7 +3388,7 @@
     "longitude": -43.91429
   },
   {
-    "id": 198,
+    "id": 243,
     "local": "UPA São Benedito",
     "endereco": "Av. Sr. do Bonfim, 1052 - São Benedito, Santa Luzia - MG, 33105-510",
     "disciplina": "SCA III",
@@ -2772,7 +3402,7 @@
     "longitude": -43.93271
   },
   {
-    "id": 199,
+    "id": 244,
     "local": "Centro de Saúde Zilah Spósito",
     "endereco": "R. Coquilhos, 85 - Jaqueline, Belo Horizonte - MG, 31748-495",
     "disciplina": "SM III",
@@ -2786,7 +3416,7 @@
     "longitude": -43.92834
   },
   {
-    "id": 200,
+    "id": 245,
     "local": "Centro de Saúde Felicidade II",
     "endereco": "Rua Sonia Braz Xavier, 60, Jardim Felicidade, Belo Horizonte - MG, 31742-417",
     "disciplina": "SM III",
@@ -2800,7 +3430,7 @@
     "longitude": -43.93071
   },
   {
-    "id": 201,
+    "id": 246,
     "local": "Centro de Saúde Fábio Correa Lima",
     "endereco": "Rua Ilha de Malta, 353 - São Gabriel, Belo Horizonte - MG, 31980-390",
     "disciplina": "SM III",
@@ -2814,7 +3444,7 @@
     "longitude": -43.91414
   },
   {
-    "id": 202,
+    "id": 247,
     "local": "Centro de Saúde Boa Vista",
     "endereco": "Rua Gurua, 833, Boa Vista, Belo Horizonte - MG, 31060-560",
     "disciplina": "SM III",
@@ -2828,7 +3458,7 @@
     "longitude": -43.89718
   },
   {
-    "id": 203,
+    "id": 248,
     "local": "UBS Otília Levinda Costa Matos - (UBS Vida Nova)",
     "endereco": "Rua dos Cardeais. S/N, Vida Nova - Vespasiano - MG",
     "disciplina": "SM III",
@@ -2838,11 +3468,11 @@
     "turma": "FAMED XX",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.76102,
-    "longitude": -43.98775
+    "latitude": -19.76186,
+    "longitude": -43.98804
   },
   {
-    "id": 204,
+    "id": 249,
     "local": "Centro de Saúde Zilah Spósito",
     "endereco": "R. Coquilhos, 85 - Jaqueline, Belo Horizonte - MG, 31748-495",
     "disciplina": "SM III",
@@ -2856,7 +3486,7 @@
     "longitude": -43.92834
   },
   {
-    "id": 205,
+    "id": 250,
     "local": "Centro de Saúde Padre Tiago",
     "endereco": "Avenida João XXIII, 1233 (Próximo à esquina de Avenida Tancredo Neves), Manacás, Belo Horizonte - MG, 30820-660",
     "disciplina": "SM III",
@@ -2866,11 +3496,25 @@
     "turma": "FAMED XX",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.90064,
-    "longitude": -43.99378
+    "latitude": -19.89941,
+    "longitude": -43.99408
   },
   {
-    "id": 206,
+    "id": 251,
+    "local": "Centro de Saúde Jardim Filadélfia",
+    "endereco": "Rua Caitite, 319  [ATUAL RUA REGIDA], Conjunto Jardim Filadélfia, Belo Horizonte - MG, 30860-330",
+    "disciplina": "SM III",
+    "preceptor": "LÍVIA LOPES NOGUEIRA",
+    "estudante": 4,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.90427,
+    "longitude": -44.0107
+  },
+  {
+    "id": 252,
     "local": "Centro de Saúde Boa Vista",
     "endereco": "Rua Gurua, 833, Boa Vista, Belo Horizonte - MG, 31060-560",
     "disciplina": "SM III",
@@ -2884,7 +3528,7 @@
     "longitude": -43.89718
   },
   {
-    "id": 207,
+    "id": 253,
     "local": "UBS Célvia I",
     "endereco": "Rua Paraná 231, Célvia, Vespasiano",
     "disciplina": "SM III",
@@ -2898,7 +3542,7 @@
     "longitude": -43.93539
   },
   {
-    "id": 208,
+    "id": 254,
     "local": "UBS Célvia I",
     "endereco": "Rua Paraná 231, Célvia, Vespasiano",
     "disciplina": "SM III",
@@ -2912,7 +3556,7 @@
     "longitude": -43.93539
   },
   {
-    "id": 209,
+    "id": 255,
     "local": "Centro de Saúde Padre Joaquim Maia",
     "endereco": "Rua Boaventura, 1900, Vila Rica, Belo Horizonte - MG, 31270-310",
     "disciplina": "SM III",
@@ -2926,7 +3570,21 @@
     "longitude": -43.95469
   },
   {
-    "id": 210,
+    "id": 256,
+    "local": "Centro de Saúde Jardim Filadélfia",
+    "endereco": "Rua Caitite, 319  [ATUAL RUA REGIDA], Conjunto Jardim Filadélfia, Belo Horizonte - MG, 30860-330",
+    "disciplina": "SM III",
+    "preceptor": "LAYSSA CAROLINE DE SOUSA CARVALHO",
+    "estudante": 4,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.90427,
+    "longitude": -44.0107
+  },
+  {
+    "id": 257,
     "local": "Centro de Saúde Boa Vista",
     "endereco": "Rua Gurua, 833, Boa Vista, Belo Horizonte - MG, 31060-560",
     "disciplina": "SM III",
@@ -2940,7 +3598,21 @@
     "longitude": -43.89718
   },
   {
-    "id": 211,
+    "id": 258,
+    "local": "Centro de Saúde Floramar",
+    "endereco": "Rua Igaraunas, 15, Floramar, Belo Horizonte - MG, 31840-330",
+    "disciplina": "SM III",
+    "preceptor": "PEDRO RAFFAEL FARIAS FERREIRA",
+    "estudante": 4,
+    "periodo_original": "OITAVO",
+    "turma": "FAMED XX",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.83909,
+    "longitude": -43.9335
+  },
+  {
+    "id": 259,
     "local": "Fundação Hospitalar Benjamin Guimarães - Hospital da Baleia",
     "endereco": "Rua Juramento, 1464, Saudade, Belo Horizonte - MG, 30285-000",
     "disciplina": "ICLC",
@@ -2954,7 +3626,7 @@
     "longitude": -43.89828
   },
   {
-    "id": 212,
+    "id": 260,
     "local": "Grupo HAP Vida - Hospital Life Center",
     "endereco": "Av. do Contorno, 4747, Serra, Belo Horizonte - MG, 30110-921",
     "disciplina": "ICLC",
@@ -2968,7 +3640,7 @@
     "longitude": -43.92451
   },
   {
-    "id": 213,
+    "id": 261,
     "local": "Grupo HAP Vida - Hospital Vera Cruz",
     "endereco": "Av. Barbacena, 653 - Barro Preto, Belo Horizonte - MG, 30190-130",
     "disciplina": "ICLC",
@@ -2978,11 +3650,11 @@
     "turma": "FAMED XIX",
     "categoria": "Médico Especialista",
     "turno": "ESCALA",
-    "latitude": -19.92366,
-    "longitude": -43.95277
+    "latitude": -19.92381,
+    "longitude": -43.9527
   },
   {
-    "id": 214,
+    "id": 262,
     "local": "Hospital e Maternidade Santa Rita",
     "endereco": "Av. Tito Fulgêncio, 1045 - Jardim Industrial, Contagem - MG, 32215-000",
     "disciplina": "ICLC",
@@ -2996,7 +3668,7 @@
     "longitude": -44.01492
   },
   {
-    "id": 215,
+    "id": 263,
     "local": "Santa Casa de Misericórdia de Belo Horizonte",
     "endereco": "Avenida Francisco Sales, 1111, Santa Efigênia, Belo Horizonte - MG",
     "disciplina": "ICLC",
@@ -3006,11 +3678,25 @@
     "turma": "FAMED XIX",
     "categoria": "Médico Especialista",
     "turno": "ESCALA",
-    "latitude": -19.92472,
-    "longitude": -43.92569
+    "latitude": -19.92365,
+    "longitude": -43.92529
   },
   {
-    "id": 216,
+    "id": 264,
+    "local": "Fundação Hospitalar Benjamin Guimarães - Hospital da Baleia",
+    "endereco": "Rua Juramento, 1464, Saudade, Belo Horizonte - MG, 30285-000",
+    "disciplina": "ICLM",
+    "preceptor": "ESCALA",
+    "estudante": 26,
+    "periodo_original": "NONO",
+    "turma": "FAMED XIX",
+    "categoria": "Médico Especialista",
+    "turno": "ESCALA",
+    "latitude": -19.92233,
+    "longitude": -43.89828
+  },
+  {
+    "id": 265,
     "local": "Grupo HAP Vida - Hospital Life Center",
     "endereco": "Av. do Contorno, 4747, Serra, Belo Horizonte - MG, 30110-921",
     "disciplina": "ICLM",
@@ -3020,11 +3706,11 @@
     "turma": "FAMED XIX",
     "categoria": "Médico Especialista",
     "turno": "ESCALA",
-    "latitude": -19.93499,
-    "longitude": -43.92452
+    "latitude": -19.93501,
+    "longitude": -43.92451
   },
   {
-    "id": 217,
+    "id": 266,
     "local": "Associação Mário Penna - Hospital Luxemburgo",
     "endereco": "Rua Joaquim Cândido Filho, 91, Luxemburgo, Belo Horizonte - MG, 30380-420",
     "disciplina": "ICLM",
@@ -3038,7 +3724,7 @@
     "longitude": -43.95874
   },
   {
-    "id": 218,
+    "id": 267,
     "local": "Santa Casa de Misericórdia de Belo Horizonte",
     "endereco": "Avenida Francisco Sales, 1111, Santa Efigênia, Belo Horizonte - MG",
     "disciplina": "ICLM",
@@ -3048,11 +3734,11 @@
     "turma": "FAMED XIX",
     "categoria": "Médico Especialista",
     "turno": "ESCALA",
-    "latitude": -19.92479,
-    "longitude": -43.92566
+    "latitude": -19.92365,
+    "longitude": -43.92529
   },
   {
-    "id": 219,
+    "id": 268,
     "local": "Grupo HAP Vida - Hospital e Maternidade Octaviano Neves",
     "endereco": "R. Ceará, 186 - Santa Efigênia, Belo Horizonte - MG, 30150-310",
     "disciplina": "ISCA",
@@ -3066,7 +3752,49 @@
     "longitude": -43.92615
   },
   {
-    "id": 220,
+    "id": 269,
+    "local": "Grupo HAP Vida - Hospital Vera Cruz",
+    "endereco": "Av. Barbacena, 653 - Barro Preto, Belo Horizonte - MG, 30190-130",
+    "disciplina": "ISCA",
+    "preceptor": "MARIANA MARTINS",
+    "estudante": 40,
+    "periodo_original": "DÉCIMO",
+    "turma": "FAMEDXVIII",
+    "categoria": "Médico Especialista",
+    "turno": "ESCALA",
+    "latitude": -19.92381,
+    "longitude": -43.9527
+  },
+  {
+    "id": 270,
+    "local": "Hopistal Mater Dei S/A - Unidade Betim",
+    "endereco": "Via Expressa de Betim, 15500 - Duque de Caxias, Betim - MG, 32673-472",
+    "disciplina": "ISCA",
+    "preceptor": "LORENA",
+    "estudante": 38,
+    "periodo_original": "DÉCIMO",
+    "turma": "FAMEDXVIII",
+    "categoria": "Médico Especialista",
+    "turno": "ESCALA",
+    "latitude": -19.94068,
+    "longitude": -44.1477
+  },
+  {
+    "id": 271,
+    "local": "Hopistal Mater Dei S/A - Unidade Betim",
+    "endereco": "Via Expressa de Betim, 15500 - Duque de Caxias, Betim - MG, 32673-472",
+    "disciplina": "ISCA",
+    "preceptor": "FLÁVIO",
+    "estudante": 38,
+    "periodo_original": "DÉCIMO",
+    "turma": "FAMEDXVIII",
+    "categoria": "Médico Especialista",
+    "turno": "ESCALA",
+    "latitude": -19.94068,
+    "longitude": -44.1477
+  },
+  {
+    "id": 272,
     "local": "Fundação Hospitalar Benjamin Guimarães - Hospital da Baleia",
     "endereco": "Rua Juramento, 1464, Saudade, Belo Horizonte - MG, 30285-000",
     "disciplina": "ISCA",
@@ -3076,11 +3804,11 @@
     "turma": "FAMEDXVIII",
     "categoria": "Médico Especialista",
     "turno": "ESCALA",
-    "latitude": -19.92235,
-    "longitude": -43.89826
+    "latitude": -19.92233,
+    "longitude": -43.89828
   },
   {
-    "id": 221,
+    "id": 273,
     "local": "Hospital Municipal São Judas Tadeu",
     "endereco": "R. Waldemar José Alves, 65 - Status, Ribeirão das Neves - MG, 33880-190",
     "disciplina": "ISCA",
@@ -3094,7 +3822,7 @@
     "longitude": -44.07938
   },
   {
-    "id": 222,
+    "id": 274,
     "local": "Santa Casa de Misericórdia de Belo Horizonte",
     "endereco": "Avenida Francisco Sales, 1111, Santa Efigênia, Belo Horizonte - MG",
     "disciplina": "ISM",
@@ -3108,7 +3836,7 @@
     "longitude": -43.92529
   },
   {
-    "id": 223,
+    "id": 275,
     "local": "UPA Norte",
     "endereco": "Avenida Risoleta Neves, 2580 - Ao lado do CRAS (Centro de Referência de Assistência Socia)l, Novo Aarão Reis, Belo Horizonte - MG 31845-425",
     "disciplina": "IUE",
@@ -3118,11 +3846,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ, TARDE, NOITE",
-    "latitude": -19.84541,
-    "longitude": -43.91416
+    "latitude": -19.84543,
+    "longitude": -43.91429
   },
   {
-    "id": 224,
+    "id": 276,
     "local": "UPA São Benedito",
     "endereco": "Av. Sr. do Bonfim, 1052 - São Benedito, Santa Luzia - MG, 33105-510",
     "disciplina": "IUE",
@@ -3132,11 +3860,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ, TARDE, NOITE",
-    "latitude": -19.78445,
-    "longitude": -43.93279
+    "latitude": -19.78447,
+    "longitude": -43.93271
   },
   {
-    "id": 225,
+    "id": 277,
     "local": "Santa Casa de Lagoa Santa",
     "endereco": "R. Caiçara, 500 - Vila Pinto Coelho, Lagoa Santa - MG, 33230-279",
     "disciplina": "IUE",
@@ -3146,11 +3874,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ, TARDE, NOITE",
-    "latitude": -19.62531,
-    "longitude": -43.90101
+    "latitude": -19.6253,
+    "longitude": -43.90108
   },
   {
-    "id": 226,
+    "id": 278,
     "local": "UPA Sabará - Padre Lázaro",
     "endereco": "MG-262, 7000 - Nações Unidas, Sabará - MG",
     "disciplina": "IUE",
@@ -3160,11 +3888,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "MANHÃ, TARDE, NOITE",
-    "latitude": -19.87682,
-    "longitude": -43.86934
+    "latitude": -19.87695,
+    "longitude": -43.8694
   },
   {
-    "id": 227,
+    "id": 279,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3178,7 +3906,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 228,
+    "id": 280,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3192,7 +3920,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 229,
+    "id": 281,
     "local": "USF Centro",
     "endereco": "R. Mal. Deodoro da Fonseca, 410 - Centro - Lagoa Santa- MG",
     "disciplina": "ISMEN",
@@ -3202,11 +3930,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.63018,
-    "longitude": -43.89559
+    "latitude": -19.63023,
+    "longitude": -43.89565
   },
   {
-    "id": 230,
+    "id": 282,
     "local": "CERSMADPNO - Centro de Referência em Saúde Mental, Álcool e outras Drogas Pampulha / Noroeste",
     "endereco": "Avenida João XXIII, 1253, Manacás, Belo Horizonte, 30820660",
     "disciplina": "ISMEN",
@@ -3220,7 +3948,7 @@
     "longitude": -43.99318
   },
   {
-    "id": 231,
+    "id": 283,
     "local": "Policlínica Nova Pampulha",
     "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
     "disciplina": "ISMEN",
@@ -3230,11 +3958,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.78142,
-    "longitude": -43.97226
+    "latitude": -19.78154,
+    "longitude": -43.9724
   },
   {
-    "id": 232,
+    "id": 284,
     "local": "Policlínica Nova Pampulha",
     "endereco": "R. Divino Marques Guimarães, 321 - Nova Pampulha, Vespasiano - MG, 33200-000",
     "disciplina": "ISMEN",
@@ -3244,11 +3972,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.78142,
-    "longitude": -43.97226
+    "latitude": -19.78154,
+    "longitude": -43.9724
   },
   {
-    "id": 233,
+    "id": 285,
     "local": "USF Centro",
     "endereco": "R. Mal. Deodoro da Fonseca, 410 - Centro - Lagoa Santa- MG",
     "disciplina": "ISMEN",
@@ -3258,11 +3986,11 @@
     "turma": "FAMEDXVII",
     "categoria": "Médico Especialista",
     "turno": "TARDE",
-    "latitude": -19.63018,
-    "longitude": -43.89559
+    "latitude": -19.63023,
+    "longitude": -43.89565
   },
   {
-    "id": 234,
+    "id": 286,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3276,7 +4004,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 235,
+    "id": 287,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3290,7 +4018,21 @@
     "longitude": -43.98082
   },
   {
-    "id": 236,
+    "id": 288,
+    "local": "Centro de Saúde Tia Amância",
+    "endereco": "Rua Irai, 248, Coração de Jesus, Belo Horizonte - MG, 30380-640",
+    "disciplina": "ISMEN",
+    "preceptor": "LAURA TORRES",
+    "estudante": 20,
+    "periodo_original": "DÉCIMO PRIMEIRO",
+    "turma": "FAMEDXVII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.9477,
+    "longitude": -43.95004
+  },
+  {
+    "id": 289,
     "local": "CERSMADPNO - Centro de Referência em Saúde Mental, Álcool e outras Drogas Pampulha / Noroeste",
     "endereco": "Avenida João XXIII, 1253, Manacás, Belo Horizonte, 30820660",
     "disciplina": "ISMEN",
@@ -3304,7 +4046,21 @@
     "longitude": -43.99318
   },
   {
-    "id": 237,
+    "id": 290,
+    "local": "Centro de Saúde Tia Amância",
+    "endereco": "Rua Irai, 248, Coração de Jesus, Belo Horizonte - MG, 30380-640",
+    "disciplina": "ISMEN",
+    "preceptor": "POLLYANA",
+    "estudante": 24,
+    "periodo_original": "DÉCIMO PRIMEIRO",
+    "turma": "FAMEDXVII",
+    "categoria": "Médico Especialista",
+    "turno": "MANHÃ",
+    "latitude": -19.9477,
+    "longitude": -43.95004
+  },
+  {
+    "id": 291,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3318,7 +4074,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 238,
+    "id": 292,
     "local": "CERSAMAD-B - Centro de Referência em Saúde Mental, Álcool e Outras Drogas Barreiro",
     "endereco": "Rua Barão do Monte Alto, 211, Cardoso, Belo Horizonte - MG, 30626-480",
     "disciplina": "ISMEN",
@@ -3332,7 +4088,7 @@
     "longitude": -44.00649
   },
   {
-    "id": 239,
+    "id": 293,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3346,7 +4102,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 240,
+    "id": 294,
     "local": "CERSMADPNO - Centro de Referência em Saúde Mental, Álcool e outras Drogas Pampulha / Noroeste",
     "endereco": "Avenida João XXIII, 1253, Manacás, Belo Horizonte, 30820660",
     "disciplina": "ISMEN",
@@ -3360,9 +4116,9 @@
     "longitude": -43.99318
   },
   {
-    "id": 241,
+    "id": 295,
     "local": "Centro de Saúde Santa Lúcia",
-    "endereco": "Rua Murillo de Andrade, 125, Santo Antônio, Belo Horizonte - MG, 30350-292 ",
+    "endereco": "Rua Murillo de Andrade, 125, Santo Antônio, Belo Horizonte - MG, 30350-292",
     "disciplina": "ISMEN",
     "preceptor": "BRUNA",
     "estudante": 24,
@@ -3374,7 +4130,7 @@
     "longitude": -43.94653
   },
   {
-    "id": 242,
+    "id": 296,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3388,7 +4144,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 243,
+    "id": 297,
     "local": "Centro de Saúde Santa Lúcia",
     "endereco": "Rua Murillo de Andrade, 125, Santo Antônio, Belo Horizonte - MG, 30350-292",
     "disciplina": "ISMEN",
@@ -3402,7 +4158,7 @@
     "longitude": -43.94653
   },
   {
-    "id": 244,
+    "id": 298,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3416,7 +4172,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 245,
+    "id": 299,
     "local": "CERSMADPNO - Centro de Referência em Saúde Mental, Álcool e outras Drogas Pampulha / Noroeste",
     "endereco": "Avenida João XXIII, 1253, Manacás, Belo Horizonte, 30820660",
     "disciplina": "ISMEN",
@@ -3430,7 +4186,21 @@
     "longitude": -43.99318
   },
   {
-    "id": 246,
+    "id": 300,
+    "local": "Centro de Saúde Tia Amância",
+    "endereco": "Rua Irai, 248, Coração de Jesus, Belo Horizonte - MG, 30380-640",
+    "disciplina": "ISMEN",
+    "preceptor": "MARIA JULIA",
+    "estudante": 28,
+    "periodo_original": "DÉCIMO PRIMEIRO",
+    "turma": "FAMEDXVII",
+    "categoria": "Médico Especialista",
+    "turno": "TARDE",
+    "latitude": -19.9477,
+    "longitude": -43.95004
+  },
+  {
+    "id": 301,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3444,7 +4214,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 247,
+    "id": 302,
     "local": "Instituto Assistencial Espírita André Luiz",
     "endereco": "R. Úrsula Paulino, 7 - Salgado Filho, Belo Horizonte - MG, 30570-000",
     "disciplina": "ISMEN",
@@ -3458,7 +4228,7 @@
     "longitude": -43.98082
   },
   {
-    "id": 248,
+    "id": 303,
     "local": "Centro de Saúde Santa Lúcia",
     "endereco": "Rua Murillo de Andrade, 125, Santo Antônio, Belo Horizonte - MG, 30350-292",
     "disciplina": "ISMEN",
@@ -3472,7 +4242,7 @@
     "longitude": -43.94653
   },
   {
-    "id": 249,
+    "id": 304,
     "local": "Secretaria Municipal de Saúde de Lagoa Santa - Gestão de Assistência",
     "endereco": "Av. Acadêmico Nilo Figueiredo, nº 2500, loja 28, Santos Dumont, Lagoa Santa - MG - 33239-310",
     "disciplina": "ISC",
@@ -3486,7 +4256,7 @@
     "longitude": -43.90482
   },
   {
-    "id": 250,
+    "id": 305,
     "local": "Secretaria Municipal de Saúde de Lagoa Santa - Vigilância em Saúde",
     "endereco": "Av. Acadêmico Nilo Figueiredo, nº 2500, loja 28, Santos Dumont, Lagoa Santa - MG - 33239-310",
     "disciplina": "ISC",
@@ -3500,7 +4270,7 @@
     "longitude": -43.90513
   },
   {
-    "id": 251,
+    "id": 306,
     "local": "Secretaria Municipal de Saúde de Lagoa Santa - Gestão e Planejamento; Controle Social",
     "endereco": "Av. Acadêmico Nilo Figueiredo, nº 2500, loja 28, Santos Dumont, Lagoa Santa - MG - 33239-310",
     "disciplina": "ISC",
@@ -3514,7 +4284,7 @@
     "longitude": -43.90513
   },
   {
-    "id": 252,
+    "id": 307,
     "local": "Secretaria Municipal de Saúde de Lagoa Santa - Gestão do Trabalho",
     "endereco": "Av. Acadêmico Nilo Figueiredo, nº 2500, loja 28, Santos Dumont, Lagoa Santa - MG - 33239-310",
     "disciplina": "ISC",
@@ -3528,7 +4298,7 @@
     "longitude": -43.90513
   },
   {
-    "id": 253,
+    "id": 308,
     "local": "Secretaria Municipal de Saúde de Lagoa Santa - Educação em Saúde",
     "endereco": "Av. Acadêmico Nilo Figueiredo, nº 2500, loja 28, Santos Dumont, Lagoa Santa - MG - 33239-310",
     "disciplina": "ISC",
@@ -3542,7 +4312,7 @@
     "longitude": -43.90501
   },
   {
-    "id": 254,
+    "id": 309,
     "local": "Centro de Saúde Aarão Reis",
     "endereco": "Rua Waldomiro Lobo, 177 - Bairro Aarão Reis, Belo Horizonte - MG, 31814-620",
     "disciplina": "IMFC",
@@ -3552,11 +4322,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.84578,
-    "longitude": -43.92101
+    "latitude": -19.84571,
+    "longitude": -43.92117
   },
   {
-    "id": 255,
+    "id": 310,
     "local": "Centro de Saúde Alameda dos Ipês",
     "endereco": "R. Min. Oliveira Salazar, 1186 - Santa Monica, Belo Horizonte - MG, 31520-400",
     "disciplina": "IMFC",
@@ -3570,7 +4340,7 @@
     "longitude": -43.97378
   },
   {
-    "id": 256,
+    "id": 311,
     "local": "Centro de Saúde Alcides Lins",
     "endereco": "R. Panema, 275 - Concórdia, Belo Horizonte - MG, 31130-620",
     "disciplina": "IMFC",
@@ -3580,11 +4350,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.89507,
-    "longitude": -43.93761
+    "latitude": -19.89514,
+    "longitude": -43.93765
   },
   {
-    "id": 257,
+    "id": 312,
     "local": "Centro de Saúde Bom Jesus",
     "endereco": "Rua Bernardos Cisneiros, 659, Aparecida, Belo Horizonte - MG, 31235-110",
     "disciplina": "IMFC",
@@ -3598,7 +4368,7 @@
     "longitude": -43.95566
   },
   {
-    "id": 258,
+    "id": 313,
     "local": "Centro de Saúde Cafezal",
     "endereco": "RUA BELA VISTA, 30, Santana do Cafezal, Belo Horizonte, 30250-010",
     "disciplina": "IMFC",
@@ -3612,7 +4382,7 @@
     "longitude": -43.91111
   },
   {
-    "id": 259,
+    "id": 314,
     "local": "Centro de Saúde Campo Alegre",
     "endereco": "R. Beija Flor, 370 - Planalto, Belo Horizonte - MG, 31720-226",
     "disciplina": "IMFC",
@@ -3626,7 +4396,7 @@
     "longitude": -43.94944
   },
   {
-    "id": 260,
+    "id": 315,
     "local": "Centro de Saúde Céu Azul",
     "endereco": "Rua Radialista Romeu Barbosa, 123, Céu Azul, Belo Horizonte - MG, 31580-510",
     "disciplina": "IMFC",
@@ -3636,11 +4406,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.82625,
-    "longitude": -44.00221
+    "latitude": -19.82623,
+    "longitude": -44.00224
   },
   {
-    "id": 261,
+    "id": 316,
     "local": "Centro de Saúde Cidade Ozanan",
     "endereco": "Rua Doutor Furtado de Menezes, 610 - Bairro Ipiranga, Belo Horizonte - MG, 31160-170",
     "disciplina": "IMFC",
@@ -3654,7 +4424,7 @@
     "longitude": -43.93223
   },
   {
-    "id": 262,
+    "id": 317,
     "local": "Centro de Saúde Dom Cabral",
     "endereco": "R. Praça da Comunidade, 50 - Dom Cabral, Belo Horizonte - MG, 30535-210",
     "disciplina": "IMFC",
@@ -3668,7 +4438,7 @@
     "longitude": -43.99976
   },
   {
-    "id": 263,
+    "id": 318,
     "local": "Centro de Saúde Dom Orione",
     "endereco": "Rua Expedicionário Celso Racioppi, 610, Bairro Ouro Preto, Belo Horizonte - MG, 31310-070",
     "disciplina": "IMFC",
@@ -3682,7 +4452,7 @@
     "longitude": -43.98297
   },
   {
-    "id": 264,
+    "id": 319,
     "local": "Centro de Saúde Dr. José Domingos",
     "endereco": "Rua Maria de Lourdes Manso, 80 - Bairro das Indústrias I, Belo Horizonte - MG, 30610-320",
     "disciplina": "IMFC",
@@ -3696,7 +4466,21 @@
     "longitude": -44.00074
   },
   {
-    "id": 265,
+    "id": 320,
+    "local": "Centro de Saúde Eduardo Mauro de Araujo (Miramar)",
+    "endereco": "Rua Eridano, nº 540, Bairro Miramar,  Belo Horizonte - MG, 30644-100",
+    "disciplina": "IMFC",
+    "preceptor": "HEITOR HENRIQUE FONSECA LEITE",
+    "estudante": 2,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.99732,
+    "longitude": -44.0117
+  },
+  {
+    "id": 321,
     "local": "Centro de Saúde Etelvina Carneiro",
     "endereco": "Rua TV Dois Mil Quatrocentos e Dezessete 235, Etelvina Carneiro,",
     "disciplina": "IMFC",
@@ -3707,10 +4491,10 @@
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
     "latitude": -19.81178,
-    "longitude": -43.93176
+    "longitude": -43.93173
   },
   {
-    "id": 266,
+    "id": 322,
     "local": "Centro de Saúde Felicidade II",
     "endereco": "RUA SONIA BRAZ XAVIER, 60, Jardim Felicidade, Belo Horizonte, 31742417",
     "disciplina": "IMFC",
@@ -3720,11 +4504,25 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.82499,
-    "longitude": -43.93081
+    "latitude": -19.82495,
+    "longitude": -43.93071
   },
   {
-    "id": 267,
+    "id": 323,
+    "local": "Centro de Saúde Heliópolis",
+    "endereco": "R. dos Beneditinos, 120 - Heliópolis, Belo Horizonte - MG, 31730-758",
+    "disciplina": "IMFC",
+    "preceptor": "HÉLITON SILVA TANAJURA",
+    "estudante": 2,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.84399,
+    "longitude": -43.942
+  },
+  {
+    "id": 324,
     "local": "Centro de Saúde Horto",
     "endereco": "Rua Pouso Alegre, nº 2042, Bairro Santa Tereza, Belo Horizonte - MG, 31015-104",
     "disciplina": "IMFC",
@@ -3738,7 +4536,21 @@
     "longitude": -43.92004
   },
   {
-    "id": 268,
+    "id": 325,
+    "local": "Centro de Saúde Jaqueline I",
+    "endereco": "R. Agenor de Paula Estrela, 1100 - Jaqueline, Belo Horizonte - MG, 31748-190",
+    "disciplina": "IMFC",
+    "preceptor": "BRAULIO ALVES DE CARVALHO, GUSTAVO HENRIQUE DO CARMO, ANA CAROLINA RESENDE CALDEIRA, ÁLVARO LUIZ TAVARES DE ALMEIDA SILVA",
+    "estudante": 3,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.80883,
+    "longitude": -43.9399
+  },
+  {
+    "id": 326,
     "local": "Centro de Saúde Leopoldo Chrisóstomo",
     "endereco": "R. Leoncio Chagas, 157 - União, Belo Horizonte - MG, 31170-590",
     "disciplina": "IMFC",
@@ -3752,7 +4564,7 @@
     "longitude": -43.92084
   },
   {
-    "id": 269,
+    "id": 327,
     "local": "Centro de Saúde Mantiqueira",
     "endereco": "R. César Salles Barbosa, 600 - Mantiqueira, Belo Horizonte - MG, 31640-090",
     "disciplina": "IMFC",
@@ -3766,7 +4578,21 @@
     "longitude": -43.98065
   },
   {
-    "id": 270,
+    "id": 328,
+    "local": "Centro de Saúde Marco Antônio de Menezes",
+    "endereco": "Avenida Petrolina, 871 - Bairro Sagrada Família, Belo Horizonte - MG, 31030-370",
+    "disciplina": "IMFC",
+    "preceptor": "ARTUR OLIVEIRA MENDES",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.90542,
+    "longitude": -43.9155
+  },
+  {
+    "id": 329,
     "local": "Centro de Saúde Menino Jesus",
     "endereco": "Rua Congonhas, 692 - Bairro Santo Antônio, Belo Horizonte - MG, 30330-100",
     "disciplina": "IMFC",
@@ -3780,7 +4606,7 @@
     "longitude": -43.94192
   },
   {
-    "id": 271,
+    "id": 330,
     "local": "Centro de Saúde MG20",
     "endereco": "Rua Padre Argemiro Moreira, 11900, Maria Teresa, Belo Horizonte - MG, 31873-168",
     "disciplina": "IMFC",
@@ -3790,11 +4616,25 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.81609,
-    "longitude": -43.88443
+    "latitude": -19.80694,
+    "longitude": -43.88375
   },
   {
-    "id": 272,
+    "id": 331,
+    "local": "Centro de Saúde Noraldino de Lima",
+    "endereco": "AVENIDA AMAZONAS, 4373, Nova Suissa, Belo Horizonte, 30421-169",
+    "disciplina": "IMFC",
+    "preceptor": "VINICIUS GARCIA ARCALA",
+    "estudante": 2,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.93016,
+    "longitude": -43.9729
+  },
+  {
+    "id": 332,
     "local": "Centro de Saúde Nova York",
     "endereco": "RUA WILTON MARQUES PEREIRA, 10, Jardim dos Comerciários, Belo Horizonte, CEP 31650-585",
     "disciplina": "IMFC",
@@ -3808,7 +4648,7 @@
     "longitude": -43.96804
   },
   {
-    "id": 273,
+    "id": 333,
     "local": "Centro de Saúde Padre Joaquim Maia",
     "endereco": "Av. Bueno Siqueira, 100 - Santa Rosa, Belo Horizonte - MG, 31255-450 - Obs.: Possui um anexo à Rua dos Otis, 60, Suzana, 31260-470",
     "disciplina": "IMFC",
@@ -3818,11 +4658,25 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.86636,
-    "longitude": -43.94352
+    "latitude": -19.85548,
+    "longitude": -43.95469
   },
   {
-    "id": 274,
+    "id": 334,
+    "local": "Centro de Saúde Padre Tiago",
+    "endereco": "AVENIDA JOAO XXIII, 1233, Próximo à esquina de Avenida Tancredo Neves, Manacás, Belo Horizonte, CEP 30820-660",
+    "disciplina": "IMFC",
+    "preceptor": "EDNARDO LINO LEITE RODRIGUES",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.89941,
+    "longitude": -43.99408
+  },
+  {
+    "id": 335,
     "local": "Centro de Saúde Primeiro de Maio",
     "endereco": "R. Oscar Lobo Pereira, 207 - Primeiro de Maio, Belo Horizonte - MG, 31812-070",
     "disciplina": "IMFC",
@@ -3832,11 +4686,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.86112,
-    "longitude": -43.92789
+    "latitude": -19.85947,
+    "longitude": -43.92771
   },
   {
-    "id": 275,
+    "id": 336,
     "local": "Centro de Saúde Rio Branco",
     "endereco": "R. Crisanto Muniz, 120 - Rio Branco, Belo Horizonte - MG, 31535-450",
     "disciplina": "IMFC",
@@ -3847,10 +4701,38 @@
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
     "latitude": -19.81387,
-    "longitude": -43.98035
+    "longitude": -43.9803
   },
   {
-    "id": 276,
+    "id": 337,
+    "local": "Centro de Saúde Santa Inês",
+    "endereco": "Rua Itumirim, 50 - Bairro Santa Inês, Belo Horizonte - MG, 31080-230",
+    "disciplina": "IMFC",
+    "preceptor": "CAROLINA",
+    "estudante": 2,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.8876,
+    "longitude": -43.90615
+  },
+  {
+    "id": 338,
+    "local": "Centro de Saúde Santa Mônica",
+    "endereco": "Rua dos Zapotecas, 98, Santa Mônica, Belo Horizonte, 31530190",
+    "disciplina": "IMFC",
+    "preceptor": "RODRIGO VIEIRA GOMES",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.82859,
+    "longitude": -43.977
+  },
+  {
+    "id": 339,
     "local": "Centro de Saúde Santa Rosa",
     "endereco": "Av. Bueno Siqueira, 100 - Santa Rosa, Belo Horizonte - MG, 31255-450 (Obs.: Possui um anexo à Rua dos Otis, 60, Suzana, 31260-470)",
     "disciplina": "IMFC",
@@ -3864,7 +4746,7 @@
     "longitude": -43.94343
   },
   {
-    "id": 277,
+    "id": 340,
     "local": "Centro de Saúde Serra Verde",
     "endereco": "Pç. Fabrício Soares da Silva, 10 - Serra Verde, Belo Horizonte - MG, 31630-572",
     "disciplina": "IMFC",
@@ -3874,11 +4756,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.79521,
-    "longitude": -43.95375
+    "latitude": -19.79517,
+    "longitude": -43.9538
   },
   {
-    "id": 278,
+    "id": 341,
     "local": "Centro de Saúde Ventosa",
     "endereco": "R. Corcovado, 1522 - Jardim America, Belo Horizonte - 30421-496",
     "disciplina": "IMFC",
@@ -3892,7 +4774,63 @@
     "longitude": -43.97172
   },
   {
-    "id": 279,
+    "id": 342,
+    "local": "Centro de Saúde Vista Alegre",
+    "endereco": "RUA SENECA, 9, Nova Cintra, Belo Horizonte, 30516-260",
+    "disciplina": "IMFC",
+    "preceptor": "ALESSANDRA PINHEIRO CAMINHAS CARVALHO, HERMES MARCONDES LOURENÇO",
+    "estudante": 2,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.94914,
+    "longitude": -43.9917
+  },
+  {
+    "id": 343,
+    "local": "UBS Cruzeiro",
+    "endereco": "Rua Belo Horizonte, 226, Cruzeiro, Carlos Chagas - MG, 39864-000",
+    "disciplina": "IMFC",
+    "preceptor": "KAREM TOMICH SENA",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -17.70302,
+    "longitude": -40.76582
+  },
+  {
+    "id": 344,
+    "local": "UBS Juá",
+    "endereco": "Frei Simeao. 709, Juá, Carlos Chagas - MG, 39864-000",
+    "disciplina": "IMFC",
+    "preceptor": "JOÃO PAULO PERES SILVA",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -17.71095,
+    "longitude": -40.76114
+  },
+  {
+    "id": 345,
+    "local": "UBS Cuidar Joana Darc",
+    "endereco": "Rua Comandante Victor,100, Santos Dumont, Lagoa Santa-MG",
+    "disciplina": "IMFC",
+    "preceptor": "GLICILLA PALOMA SILVA",
+    "estudante": 2,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.6439,
+    "longitude": -43.90224
+  },
+  {
+    "id": 346,
     "local": "UBS Cuidar Moradas da Lapinha",
     "endereco": "Rua Pinto Alves 3.755, Vila Maria, Lagoa Santa - MG",
     "disciplina": "IMFC",
@@ -3906,7 +4844,7 @@
     "longitude": -43.90715
   },
   {
-    "id": 280,
+    "id": 347,
     "local": "UBS Cuidar Por do Sol",
     "endereco": "Rua Paula Pinto, 298, Pôr do Sol, Lagoa Santa-MG",
     "disciplina": "IMFC",
@@ -3920,7 +4858,7 @@
     "longitude": -43.90904
   },
   {
-    "id": 281,
+    "id": 348,
     "local": "UBS Cuidar Vila José Fagundes",
     "endereco": "Rua Pinto Alves 3.755, Vila Maria, Lagoa Santa - MG",
     "disciplina": "IMFC",
@@ -3934,7 +4872,7 @@
     "longitude": -43.90719
   },
   {
-    "id": 282,
+    "id": 349,
     "local": "USF Centro",
     "endereco": "R. Mal. Deodoro da Fonseca, 410 - Centro - Lagoa Santa- MG",
     "disciplina": "IMFC",
@@ -3944,11 +4882,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.63017,
-    "longitude": -43.89558
+    "latitude": -19.63023,
+    "longitude": -43.89565
   },
   {
-    "id": 283,
+    "id": 350,
     "local": "USF Promissão",
     "endereco": "Alameda Noruega, 165, Promissão, Lagoa Santa - MG",
     "disciplina": "IMFC",
@@ -3962,7 +4900,21 @@
     "longitude": -43.90179
   },
   {
-    "id": 284,
+    "id": 351,
+    "local": "USF Sobradinho",
+    "endereco": "Rua Aleomar Baleeiro, 316, Sobradinho, Lagoa Santa - MG",
+    "disciplina": "IMFC",
+    "preceptor": "LAURA LOSCHI DE OLIVEIRA CLARIM",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.6245,
+    "longitude": -43.89169
+  },
+  {
+    "id": 352,
     "local": "ESF Adélia Issa",
     "endereco": "Rua Luiz Pires, 55 - Adélia Issa, Pedro Leopoldo - MG",
     "disciplina": "IMFC",
@@ -3972,11 +4924,25 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.59166,
-    "longitude": -44.02899
+    "latitude": -19.58792,
+    "longitude": -44.02839
   },
   {
-    "id": 285,
+    "id": 353,
+    "local": "Posto de Saúde General Carneiro",
+    "endereco": "R. Rio Grande do Sul, 12, General Carneiro, Sabará, MG, CEP 34585-260",
+    "disciplina": "IMFC",
+    "preceptor": "JOSE CARLOS DOMINGUES",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.88428,
+    "longitude": -43.85266
+  },
+  {
+    "id": 354,
     "local": "UBS Roça Grande",
     "endereco": "R. Santana , 545 - Roça Grande, Sabará - MG",
     "disciplina": "IMFC",
@@ -3990,7 +4956,7 @@
     "longitude": -43.83156
   },
   {
-    "id": 286,
+    "id": 355,
     "local": "UBS Alvorada",
     "endereco": "Rua Campanha, nº 22 - Alvorada, Sabará - MG",
     "disciplina": "IMFC",
@@ -4000,11 +4966,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.87578,
-    "longitude": -43.89489
+    "latitude": -19.87145,
+    "longitude": -43.89367
   },
   {
-    "id": 287,
+    "id": 356,
     "local": "UBS Catumbi",
     "endereco": "Rua São Judas Tadeu, 765 - São Benedito, Santa Luzia - MG",
     "disciplina": "IMFC",
@@ -4014,11 +4980,11 @@
     "turma": "FAMEDXVI",
     "categoria": "Médico Generalista / MFC",
     "turno": "ESCALA",
-    "latitude": -19.78846,
-    "longitude": -43.94034
+    "latitude": -19.7884,
+    "longitude": -43.94017
   },
   {
-    "id": 288,
+    "id": 357,
     "local": "UBS Cristina",
     "endereco": "Av. Antônio de Pinho Taváres, 268 - Conj. Cristina (Sao Benedito), Santa Luzia - MG, 33145-160",
     "disciplina": "IMFC",
@@ -4032,7 +4998,7 @@
     "longitude": -43.92707
   },
   {
-    "id": 289,
+    "id": 358,
     "local": "ESF São João I",
     "endereco": "R. Higino Sebastião da Cunha, 135 - Santa Matilde, Conselheiro Lafaiete - MG, 36405-209",
     "disciplina": "IMFC",
@@ -4046,7 +5012,7 @@
     "longitude": -43.78073
   },
   {
-    "id": 290,
+    "id": 359,
     "local": "UBS Albinópolis 2",
     "endereco": "Av. Pref. Pedro Silva, 440 - Albinópolis, Conselheiro Lafaiete - MG, 36404-026",
     "disciplina": "IMFC",
@@ -4060,7 +5026,7 @@
     "longitude": -43.78216
   },
   {
-    "id": 291,
+    "id": 360,
     "local": "ESF São Roque II",
     "endereco": "R. Alamêda Rio Caiapó, 131, Bairro Tietê, Divinópolis - MG, 35502-481",
     "disciplina": "IMFC",
@@ -4074,7 +5040,7 @@
     "longitude": -44.92015
   },
   {
-    "id": 292,
+    "id": 361,
     "local": "UBS Resplendor",
     "endereco": "R. Paraíba, 380 - Resplendor, Igarapé - MG, 32900-000",
     "disciplina": "IMFC",
@@ -4088,7 +5054,35 @@
     "longitude": -44.28708
   },
   {
-    "id": 293,
+    "id": 362,
+    "local": "PSF Rosário",
+    "endereco": "Rua Ly de Oliveira, 06, Ilicínea - MG, 37175-000",
+    "disciplina": "IMFC",
+    "preceptor": "ANDERSON HENRIQUE DE ANDRADE",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -20.93686,
+    "longitude": -45.83307
+  },
+  {
+    "id": 363,
+    "local": "PSF Wandy de Morães Silva",
+    "endereco": "R. Carlos Penido Filho, 295 - Rosa de Freitas, Itaguara - MG, 35488-000",
+    "disciplina": "IMFC",
+    "preceptor": "OTÁVIO ANTONIEL VILELA ANTUNES",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -20.38087,
+    "longitude": -44.4785
+  },
+  {
+    "id": 364,
     "local": "UBS Cidade Nova",
     "endereco": "R. Délcio Antunes Drumond, 34 - Tres Marias, Itaúna - MG, 35680-580",
     "disciplina": "IMFC",
@@ -4102,7 +5096,35 @@
     "longitude": -44.59582
   },
   {
-    "id": 294,
+    "id": 365,
+    "local": "UBS Marília",
+    "endereco": "R. Raul Gomes Bernardes, 1382 - Lagoa da Prata, MG, 35590-000",
+    "disciplina": "IMFC",
+    "preceptor": "FERNANDO BELITZCK FERREIRA",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -20.02601,
+    "longitude": -45.52854
+  },
+  {
+    "id": 366,
+    "local": "UBS Américo Silva I",
+    "endereco": "R. Bom Despacho - Lagoa da Prata, MG, 35590-000",
+    "disciplina": "IMFC",
+    "preceptor": "FABRICIO MAX NASCIMENTO SIMÕES VIEIRA",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -20.01383,
+    "longitude": -45.54449
+  },
+  {
+    "id": 367,
     "local": "UBS Nossa Senhora da Piedade",
     "endereco": "Praça Galba Veloso - Centro, Pará de Minas - MG, 35660-003",
     "disciplina": "IMFC",
@@ -4116,7 +5138,7 @@
     "longitude": -44.60676
   },
   {
-    "id": 295,
+    "id": 368,
     "local": "PSF Novo Horizonte",
     "endereco": "Av. Norte Sul, 1530 - Novo Horizonte, Nova Serrana - MG, 35519-000",
     "disciplina": "IMFC",
@@ -4130,7 +5152,21 @@
     "longitude": -44.99184
   },
   {
-    "id": 296,
+    "id": 369,
+    "local": "UBS Dimas Guimarães",
+    "endereco": "Rua Acre, 771, Planalto, Nova Serrana - MG, 35526-774",
+    "disciplina": "IMFC",
+    "preceptor": "JOÃO AMORIM DE SOUZA JÚNIOR",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -19.86666,
+    "longitude": -44.9754
+  },
+  {
+    "id": 370,
     "local": "PSF Maria Beatriz Lucas",
     "endereco": "Rua Diamante Jose Rodrigues Da, R. João Rodrigues da Costa, Nova Serrana - MG, 35526-500",
     "disciplina": "IMFC",
@@ -4144,7 +5180,7 @@
     "longitude": -44.98186
   },
   {
-    "id": 297,
+    "id": 371,
     "local": "UBS José de Almeida",
     "endereco": "R. Dr. Lunds, 200 - José de Almeida, Nova Lima - MG, 34000-000",
     "disciplina": "IMFC",
@@ -4158,7 +5194,21 @@
     "longitude": -43.88683
   },
   {
-    "id": 298,
+    "id": 372,
+    "local": "ESF São Sebastião II",
+    "endereco": "R. Orestes Diniz Cambraia, 60 - Oliveira, MG, 35540-000",
+    "disciplina": "IMFC",
+    "preceptor": "ISADORA MARIA DE OLIVEIRA SANTOS",
+    "estudante": 1,
+    "periodo_original": "DÉCIMO SEGUNDO",
+    "turma": "FAMEDXVI",
+    "categoria": "Médico Generalista / MFC",
+    "turno": "ESCALA",
+    "latitude": -20.70334,
+    "longitude": -44.8128
+  },
+  {
+    "id": 373,
     "local": "ESF Marilândia",
     "endereco": "R. Américo Vespúcio, 117 - Marilândia, Itapecerica - MG, 35550-000",
     "disciplina": "IMFC",
