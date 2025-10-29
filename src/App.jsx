@@ -281,9 +281,13 @@ function App() {
                     </div>
                     <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-200">
                       <div className="flex items-center space-x-2">
-                        <span className="text-xs font-medium text-gray-600">DISCIPLINAS</span>
+                        <span className="text-xs font-medium text-gray-600">ESTUDANTES</span>
                       </div>
-                      <p className="text-lg font-bold text-gray-800 mt-1">{filters.disciplinas?.length || 0}</p>
+                      <p className="text-lg font-bold text-gray-800 mt-1">
+                        {filteredLocations.reduce((total, loc) => 
+                          total + (loc.disciplinas?.reduce((sum, disc) => sum + (disc.estudante || 0), 0) || 0), 0
+                        )}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -339,66 +343,33 @@ function App() {
                                   
                                   {/* Container com scroll */}
                                   <div className="scroll-container">
-                                    <div className="max-h-64 overflow-y-auto space-y-3 pr-2 popup-scroll">
+                                    <div className="max-h-64 overflow-y-auto space-y-2 pr-2 popup-scroll">
                                       {location.disciplinas.map((disciplinaInfo, index) => (
-                                        <div key={index} className="disciplina-card border border-gray-200 bg-white p-3 rounded-lg shadow-sm">
-                                        <div className="flex items-center justify-between mb-2">
-                                          <Badge variant="secondary" className="bg-faminas-light text-white font-medium">
+                                        <div key={index} className="disciplina-card border border-gray-200 bg-white p-2 rounded-lg shadow-sm">
+                                        <div className="flex items-center justify-between mb-1">
+                                          <Badge variant="secondary" className="bg-faminas-light text-white font-medium text-xs">
                                             {disciplinaInfo.disciplina}
                                           </Badge>
                                           <span className="text-xs text-gray-600 bg-gray-100 px-2 py-1 rounded">
                                             {disciplinaInfo.periodo_original}
                                           </span>
                                         </div>
-                                        <div className="text-xs text-gray-700 space-y-2">
-                                          {/* Preceptor - largura completa */}
+                                        <div className="text-xs text-gray-700 space-y-1">
+                                          {/* Preceptor - compacto */}
                                           <div className="w-full">
-                                            <p><strong>👨‍⚕️ Preceptor:</strong></p>
-                                            <p className="text-gray-600 ml-4">{disciplinaInfo.preceptor}</p>
+                                            <p className="text-gray-600"><strong>👨‍⚕️</strong> {disciplinaInfo.preceptor}</p>
                                           </div>
                                           
-                                          {/* Turma e Turno - lado a lado */}
-                                          <div className="grid grid-cols-2 gap-2">
-                                            <div>
+                                          {/* Turma, Turno e Estudantes - em linha */}
+                                          <div className="flex items-center justify-between text-xs">
+                                            <div className="flex items-center space-x-3">
                                               {disciplinaInfo.turma && (
-                                                <p><strong>👥 Turma:</strong> {disciplinaInfo.turma}</p>
+                                                <span><strong>👥</strong> {disciplinaInfo.turma}</span>
                                               )}
+                                              <span><strong>🕐</strong> {disciplinaInfo.turno}</span>
                                             </div>
-                                            <div>
-                                              <p><strong>🕐 Turno:</strong> {disciplinaInfo.turno}</p>
-                                            </div>
-                                          </div>
-                                          
-                                          {/* Toggle discreto e elegante */}
-                                          <div className="flex justify-end">
-                                            <button 
-                                              onClick={(e) => {
-                                                e.stopPropagation();
-                                                const target = e.currentTarget.parentElement.nextElementSibling;
-                                                const isHidden = target.classList.contains('hidden');
-                                                if (isHidden) {
-                                                  target.classList.remove('hidden');
-                                                  target.classList.add('show');
-                                                  e.currentTarget.innerHTML = '<span class="text-faminas-pink">•••</span>';
-                                                  e.currentTarget.title = 'Ocultar número de estudantes';
-                                                } else {
-                                                  target.classList.remove('show');
-                                                  setTimeout(() => target.classList.add('hidden'), 300);
-                                                  e.currentTarget.innerHTML = '<span class="text-gray-400">•••</span>';
-                                                  e.currentTarget.title = 'Mostrar número de estudantes';
-                                                }
-                                              }}
-                                              className="text-xs hover:bg-gray-100 rounded px-2 py-1 transition-all duration-200 border border-transparent hover:border-gray-200"
-                                              title="Mostrar número de estudantes"
-                                            >
-                                              <span className="text-gray-400">•••</span>
-                                            </button>
-                                          </div>
-                                          
-                                          {/* Informação de estudantes */}
-                                          <div className="student-info hidden">
-                                            <div className="text-xs text-gray-500 text-center bg-blue-50 py-2 px-3 rounded border border-blue-100">
-                                              <strong>🎓 Estudantes:</strong> {disciplinaInfo.estudante}
+                                            <div className="text-faminas-blue font-medium">
+                                              <strong>🎓</strong> {disciplinaInfo.estudante} estudantes
                                             </div>
                                           </div>
                                         </div>
