@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
-import { MapPin, Users, GraduationCap, Clock } from 'lucide-react'
+import { MapPin, Users, GraduationCap, Clock, ChevronDown, ChevronUp } from 'lucide-react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './App.css'
@@ -28,6 +28,7 @@ function App() {
     preceptor: ''
   })
   const [loading, setLoading] = useState(true)
+  const [expandedCards, setExpandedCards] = useState(new Set())
 
   // Carregar dados
   useEffect(() => {
@@ -121,6 +122,18 @@ function App() {
       disciplina: '',
       periodo: '',
       preceptor: ''
+    })
+  }
+
+  const toggleCardExpansion = (cardId) => {
+    setExpandedCards(prev => {
+      const newSet = new Set(prev)
+      if (newSet.has(cardId)) {
+        newSet.delete(cardId)
+      } else {
+        newSet.add(cardId)
+      }
+      return newSet
     })
   }
 
@@ -344,37 +357,77 @@ function App() {
                                   {/* Container com scroll */}
                                   <div className="scroll-container">
                                     <div className="max-h-64 overflow-y-auto space-y-2 pr-2 popup-scroll">
-                                      {location.disciplinas.map((disciplinaInfo, index) => (
-                                        <div key={index} className="disciplina-card border border-gray-200 bg-white p-2 rounded-lg shadow-sm">
-                                        <div className="flex items-center justify-between mb-1">
-                                          <Badge variant="secondary" className="bg-faminas-light text-white font-medium text-xs">
-                                            {disciplinaInfo.disciplina}
-                                          </Badge>
-                                          <span className="text-xs text-gray-600 bg-gray-100 px-2 py-1 rounded">
-                                            {disciplinaInfo.periodo_original}
-                                          </span>
-                                        </div>
-                                        <div className="text-xs text-gray-700 space-y-1">
-                                          {/* Preceptor - compacto */}
-                                          <div className="w-full">
-                                            <p className="text-gray-600"><strong>👨‍⚕️</strong> {disciplinaInfo.preceptor}</p>
-                                          </div>
-                                          
-                                          {/* Turma, Turno e Estudantes - em linha */}
-                                          <div className="flex items-center justify-between text-xs">
-                                            <div className="flex items-center space-x-3">
-                                              {disciplinaInfo.turma && (
-                                                <span><strong>👥</strong> {disciplinaInfo.turma}</span>
-                                              )}
-                                              <span><strong>🕐</strong> {disciplinaInfo.turno}</span>
+                                      {location.disciplinas.map((disciplinaInfo, index) => {
+                                        const cardId = `${location.latitude}-${location.longitude}-${index}`
+                                        const isExpanded = expandedCards.has(cardId)
+                                        
+                                        return (
+                                          <div key={index} className="disciplina-card border border-gray-200 bg-white rounded-lg shadow-sm overflow-hidden">
+                                            {/* Header clicável */}
+                                            <div 
+                                              className="p-2 cursor-pointer hover:bg-gray-50 transition-colors"
+                                              onClick={() => toggleCardExpansion(cardId)}
+                                            >
+                                              <div className="flex items-center justify-between mb-1">
+                                                <Badge variant="secondary" className="bg-faminas-light text-white font-medium text-xs">
+                                                  {disciplinaInfo.disciplina}
+                                                </Badge>
+                                                <div className="flex items-center space-x-2">
+                                                  <span className="text-xs text-gray-600 bg-gray-100 px-2 py-1 rounded">
+                                                    {disciplinaInfo.periodo_original}
+                                                  </span>
+                                                  {isExpanded ? (
+                                                    <ChevronUp className="w-4 h-4 text-gray-400" />
+                                                  ) : (
+                                                    <ChevronDown className="w-4 h-4 text-gray-400" />
+                                                  )}
+                                                </div>
+                                              </div>
+                                              <div className="text-xs text-gray-700 space-y-1">
+                                                {/* Preceptor - compacto */}
+                                                <div className="w-full">
+                                                  <p className="text-gray-600"><strong>👨‍⚕️</strong> {disciplinaInfo.preceptor}</p>
+                                                </div>
+                                                
+                                                {/* Turma, Turno e Estudantes - em linha */}
+                                                <div className="flex items-center justify-between text-xs">
+                                                  <div className="flex items-center space-x-3">
+                                                    {disciplinaInfo.turma && (
+                                                      <span><strong>👥</strong> {disciplinaInfo.turma}</span>
+                                                    )}
+                                                    <span><strong>🕐</strong> {disciplinaInfo.turno}</span>
+                                                  </div>
+                                                  <div className="text-faminas-blue font-medium">
+                                                    <strong>🎓</strong> {disciplinaInfo.estudante} estudantes
+                                                  </div>
+                                                </div>
+                                              </div>
                                             </div>
-                                            <div className="text-faminas-blue font-medium">
-                                              <strong>🎓</strong> {disciplinaInfo.estudante} estudantes
-                                            </div>
+                                            
+                                            {/* Conteúdo expandido */}
+                                            {isExpanded && (
+                                              <div className="px-2 pb-2 border-t border-gray-100 bg-gray-50">
+                                                <div className="pt-2">
+                                                  <h4 className="text-xs font-semibold text-gray-700 mb-2">👥 Lista de Estudantes:</h4>
+                                                  <div className="text-xs text-gray-600">
+                                                    <p className="bg-white p-2 rounded border">
+                                                      <strong>Total:</strong> {disciplinaInfo.estudante} estudantes matriculados
+                                                    </p>
+                                                    <p className="mt-1 text-xs text-gray-500">
+                                                      <strong>Categoria:</strong> {disciplinaInfo.categoria}
+                                                    </p>
+                                                    {disciplinaInfo.turma && (
+                                                      <p className="text-xs text-gray-500">
+                                                        <strong>Turma:</strong> {disciplinaInfo.turma}
+                                                      </p>
+                                                    )}
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            )}
                                           </div>
-                                        </div>
-                                      </div>
-                                      ))}
+                                        )
+                                      })}
                                     </div>
                                   </div>
                                 </div>
