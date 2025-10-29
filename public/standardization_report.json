@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-09-02T17:32:14.340743",
+  "summary": {
+    "total_locations": 148,
+    "locations_needing_standardization": 53,
+    "locations_with_invalid_coordinates": 2
+  },
+  "standardization_details": {
+    "CAS Norte - Policlínia Regional Norte": {
+      "standard_coordinate": [
+        -19.59565,
+        -43.90824
+      ],
+      "reason": "única coordenada",
+      "total_coordinates": 1,
+      "total_records": 2,
+      "coordinate_distribution": {
+        

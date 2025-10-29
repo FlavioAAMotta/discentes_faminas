@@ -126,39 +126,40 @@ function App() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-faminas-blue mx-auto mb-4"></div>
-          <p className="text-faminas-blue font-medium">Carregando mapa...</p>
+      <div className="flex items-center justify-center min-h-screen bg-gray-50">
+        <div className="text-center bg-white rounded-2xl p-8 shadow-xl">
+          <div className="animate-spin rounded-full h-16 w-16 border-4 border-gray-200 border-t-faminas-blue mx-auto mb-6"></div>
+          <p className="text-faminas-blue font-semibold text-lg">Carregando mapa...</p>
+          <p className="text-gray-600 text-sm mt-2">Preparando dados dos estágios</p>
         </div>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-white shadow-lg border-b-4 border-faminas-pink">
-        <div className="container mx-auto px-4 py-6">
+      <header className="bg-white shadow-xl border-b-4 border-faminas-pink">
+        <div className="container mx-auto px-6 py-8">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-6">
               <img 
                 src={faminasLogo} 
                 alt="Logo FAMINAS" 
-                className="h-16 w-auto object-contain"
+                className="h-18 w-auto object-contain drop-shadow-md"
               />
               <div>
-                <h1 className="text-3xl font-bold text-faminas-blue">
+                <h1 className="text-4xl font-bold text-faminas-blue tracking-tight">
                   Mapa Interativo de Estágios
                 </h1>
-                <p className="text-faminas-light mt-1">
+                <p className="text-faminas-light mt-2 font-medium">
                   FAMINAS - Faculdade de Minas
                 </p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <Badge variant="secondary" className="bg-faminas-light text-white">
-                <MapPin className="w-4 h-4 mr-1" />
+              <Badge variant="secondary" className="bg-faminas-blue text-white px-4 py-2 text-sm font-medium">
+                <MapPin className="w-4 h-4 mr-2" />
                 {filteredLocations.length} locais
               </Badge>
             </div>
@@ -166,14 +167,14 @@ function App() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-6">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+      <div className="container mx-auto px-6 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Painel de Filtros */}
           <div className="lg:col-span-1">
-            <Card className="shadow-lg border-0">
-              <CardHeader className="bg-faminas-blue text-white rounded-t-lg">
-                <CardTitle className="flex items-center">
-                  <Users className="w-5 h-5 mr-2" />
+            <Card className="shadow-lg border-0 bg-white">
+              <CardHeader className="bg-gradient-to-r from-faminas-blue to-faminas-light text-white rounded-t-lg">
+                <CardTitle className="flex items-center text-lg">
+                  <Users className="w-5 h-5 mr-3" />
                   Filtros
                 </CardTitle>
               </CardHeader>
@@ -255,27 +256,34 @@ function App() {
                   Limpar Filtros
                 </Button>
 
-                {/* Estatísticas */}
-                <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-                  <h3 className="font-medium text-gray-900 mb-3">Estatísticas</h3>
-                  <div className="space-y-2 text-sm">
-                    <div className="flex justify-between">
-                      <span>Total de registros:</span>
-                      <span className="font-medium">{locations.length}</span>
+                {/* Informações dos dados */}
+                <div className="mt-6 p-5 bg-gray-50 rounded-lg border border-gray-200">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-200">
+                      <div className="flex items-center space-x-2">
+                        <span className="text-xs font-medium text-gray-600">REGISTROS</span>
+                      </div>
+                      <p className="text-lg font-bold text-gray-800 mt-1">{locations.length}</p>
                     </div>
-                    <div className="flex justify-between">
-                      <span>Locais únicos:</span>
-                      <span className="font-medium text-faminas-pink">{filteredLocations.length}</span>
+                    <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-200">
+                      <div className="flex items-center space-x-2">
+                        <span className="text-xs font-medium text-gray-600">LOCAIS</span>
+                      </div>
+                      <p className="text-lg font-bold text-gray-800 mt-1">{filteredLocations.length}</p>
                     </div>
-                    <div className="flex justify-between">
-                      <span>Total disciplinas:</span>
-                      <span className="font-medium text-faminas-blue">
+                    <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-200">
+                      <div className="flex items-center space-x-2">
+                        <span className="text-xs font-medium text-gray-600">ATIVIDADES</span>
+                      </div>
+                      <p className="text-lg font-bold text-gray-800 mt-1">
                         {filteredLocations.reduce((total, loc) => total + (loc.disciplinas?.length || 0), 0)}
-                      </span>
+                      </p>
                     </div>
-                    <div className="flex justify-between">
-                      <span>Disciplinas:</span>
-                      <span className="font-medium">{filters.disciplinas?.length || 0}</span>
+                    <div className="bg-white rounded-lg p-3 shadow-sm border border-gray-200">
+                      <div className="flex items-center space-x-2">
+                        <span className="text-xs font-medium text-gray-600">DISCIPLINAS</span>
+                      </div>
+                      <p className="text-lg font-bold text-gray-800 mt-1">{filters.disciplinas?.length || 0}</p>
                     </div>
                   </div>
                 </div>
@@ -285,10 +293,10 @@ function App() {
 
           {/* Mapa */}
           <div className="lg:col-span-3">
-            <Card className="shadow-lg border-0 overflow-hidden">
-              <CardHeader className="bg-faminas-light text-white">
-                <CardTitle className="flex items-center">
-                  <MapPin className="w-5 h-5 mr-2" />
+            <Card className="shadow-lg border-0 overflow-hidden bg-white">
+              <CardHeader className="bg-gradient-to-r from-faminas-light to-faminas-pink text-white">
+                <CardTitle className="flex items-center text-lg">
+                  <MapPin className="w-5 h-5 mr-3" />
                   Cenários de Prática em Belo Horizonte
                 </CardTitle>
               </CardHeader>
