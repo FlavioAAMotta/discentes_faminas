@@ -1,3 +1,4 @@
 node_modules
 dist
 public/2026_data/geocode_cache.json
+__pycache__/
